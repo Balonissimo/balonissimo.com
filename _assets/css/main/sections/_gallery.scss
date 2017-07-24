@@ -1,0 +1,65 @@
+// gallery
+.galleries,
+.gallery {
+  text-align: center;
+
+  figure {
+    margin-bottom: em(24);
+
+    a {
+      display: block;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        opacity: 0.85;
+        transform: scale(1.025);
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+  }
+
+}
+
+.gallery figure {
+  @include grid((
+    ($bp-tiny, 2, 24),
+    ($bp-small, 3, 24),
+    ($bp-medium, 4, 24),
+    ($bp-large, 5, 24),
+  ));
+
+}
+
+
+.galleries {
+  text-align: center;
+
+  figure {
+
+    a {
+      padding: 1.4em;
+      background-color: white;
+      border: 1px solid darken($clr-light-gray, 10);
+    }
+
+    @include grid((
+      ($bp-small, 2, 24),
+      ($bp-medium, 3, 24),
+      ($bp-huge, 4, 24),
+    ));
+
+    figcaption {
+      font-size: 1.2em;
+      font-weight: 300;
+      padding-top: 0.8em;
+    }
+
+    a:hover {
+      opacity: .85;
+    }
+  }
+}

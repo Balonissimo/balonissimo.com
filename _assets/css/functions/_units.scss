@@ -1,0 +1,9 @@
+// px to em
+@function em($pixels, $base: $fs-base) {
+  @return #{$pixels/$base}em;
+}
+
+// px to percent
+@function pe($pixels, $base: 16) {
+  @return #{(($pixels / $base) * 100) + '%'};
+}

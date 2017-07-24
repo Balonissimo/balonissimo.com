@@ -1,0 +1,38 @@
+// font family
+$ff-default: "Roboto";
+$ff-headings: "Cookie";
+
+// base
+$fs-base: 15;
+$lh-base: 32;
+$sp-base: 16;
+
+// default font sizes
+$fs-small: em($fs-base - ($fs-base / 4));
+$fs-medium: em($fs-base);
+$fs-large: em($fs-base + ($fs-base / 4));
+
+// heading font sizes
+$fs-h1: em(36);
+$fs-h2: em(28);
+$fs-h3: em(22);
+$fs-h4: em(18);
+$fs-h5: em(16);
+$fs-h6: em(14);
+
+// breakpoints
+$bp-tiny: 380px;
+$bp-small: 640px;
+$bp-medium: 960px;
+$bp-large: 1180px;
+$bp-huge: 1360px;
+
+// spacing
+$sp-small: em($sp-base - ($sp-base / 4));
+$sp-medium: em($sp-base);
+$sp-large: em($sp-base + ($sp-base / 4));
+
+// border radius
+$rad-small: em(2);
+$rad-medium: em(3);
+$rad-large: em(6);

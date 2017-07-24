@@ -1,0 +1,20 @@
+<nav>
+  <h2 data-dropdown>
+    <svg class="icon-menu"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu"></use></svg><span>Menu</span>
+  </h2>
+  <ul data-dropdown-menu>
+    {% for item in site.menus[page.lang] %}
+      <li>
+        <a href="{{ item.url }}"{% if item.url == page.permalink %} class="active"{% endif %}>
+          {% if forloop.first %}
+          <svg class="icon-balloon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-balloon"></use></svg><span>{{ item.title }}</span>
+          {% else %}
+          {{ item.title }}
+          {% endif %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  {% include_cached social.html %}
+  {% include_cached language.html lang=page.lang %}
+</nav>

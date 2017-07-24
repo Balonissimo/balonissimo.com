@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+
+  {% include head.html %}
+
+  <body class="{{ page.layout }}">
+
+    {% include_cached svg/icons.svg %}
+
+    <h1>{{ site.title }} - {{ site.slogan }}</h1>
+
+    {% if page.banner and page.banner != '' %}
+    <header>
+      {% include_cached image.html file=page.banner style='banner' alt=page.title %}
+      {% if page.layout == "frontpage" or page.url == '/404' %}
+      {% include_cached svg/logo.svg %}
+      {% endif %}
+    </header>
+    {% endif %}
+
+    {% include navigation.html %}
+
+    {{ content }}
+
+  </body>
+
+</html>

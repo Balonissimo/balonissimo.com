@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<article class="intro">
+
+  <h2><span>{{ page.title }}</span></h2>
+
+  {{ content }}
+
+  {% if page.buttons %}
+  <footer>
+    {% include buttons.html items=page.buttons %}
+  </footer>
+  {% endif %}
+
+</article>
+
+
+<section class="flights teasers">
+
+  <h2 class="hidden">
+    <span>Our flights</span>
+  </h2>
+
+  {% assign flights = site.flights | where: "lang", page.lang %}
+  {% assign sorted_flights = flights | sort: 'order' %}
+
+  {% for flight in sorted_flights %}
+  <article>
+    <figure>
+      {% include_cached image.html file=flight.banner style='teaser' alt=flight.title %}
+    </figure>
+    <h3>{{ flight.title }}</h3>
+    {{ flight.content }}
+
+    {% if flight.buttons %}
+    <footer>
+      {% include buttons.html items=flight.buttons %}
+    </footer>
+    {% endif %}
+
+  </article>
+
+  {% endfor %}
+
+</section>
+
+{% include_cached footer.html lang=page.lang %}
+
+{% js js/default async:true %}

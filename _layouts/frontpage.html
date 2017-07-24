@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<article class="intro">
+
+  <h2><span>{{ page.title }}</span></h2>
+
+  {{ content }}
+
+  {% if page.buttons %}
+  <footer>
+    {% include buttons.html items=page.buttons %}
+  </footer>
+  {% endif %}
+
+</article>
+
+
+<section class="teasers">
+
+  <h2 class="hidden">
+    <span>Teasers</span>
+  </h2>
+
+  {% assign teasers = site.teasers | where: "lang", page.lang %}
+  {{ teasers | sort: 'order' }}
+
+</section>
+
+
+<section class="gallery">
+
+  <h2>
+    <span>Latest pictures</span>
+  </h2>
+
+  <div id="instafeed">
+    <noscript>Visit our instagram page...</noscript>
+  </div>
+
+</section>
+
+
+<section class="testimonials">
+
+  <h2>
+    <span>Latest testimonials</span>
+  </h2>
+
+  {% assign testimonials = site.testimonials | where: "lang", page.lang | where: "frontpage", true %}
+  {{ testimonials | sort: 'date' }}
+
+</section>
+
+{% include_cached footer.html lang=page.lang %}
+
+{% js js/default async:true %}
+{% js js/gallery %}
+
+<script>
+  var feed = new Instafeed({
+    get: 'user',
+    userId: "{{ site.instagram.userId }}",
+    limit: 10,
+    sortBy: 'most-recent',
+    clientId: "{{ site.instagram.clientId }}",
+    accessToken: "{{ site.instagram.accessToken }}",
+    template: {% raw %}'<figure><a href="{{model.images.standard_resolution.url}}" data-caption="{{caption}} &hearts; {{likes}}"><img class="lazyload" src="{% endraw %}{{ placeholder }}{% raw %}" data-src="{{model.images.low_resolution.url}}" alt="Picture" width="280" height="280"/></a></figure>', {% endraw %}
+    after: function() {
+      baguetteBox.run('#instafeed');
+    },
+  });
+  feed.run();
+</script>

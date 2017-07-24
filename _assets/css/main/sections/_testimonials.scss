@@ -1,0 +1,84 @@
+// section type teasers
+section.testimonials {
+
+  $image-size: 200;
+  $image-padding: $sp-base * 2;
+
+  text-align: center;
+  background-color: $clr-spot;
+
+  & > h2:first-child {
+    color: white;
+    span:before,
+    span:after {
+      background-color: white;
+    }
+  }
+
+  & > article {
+    text-align: left;
+    margin-bottom: em($image-padding);
+    background-color: white;
+    padding: em($image-padding);
+    border-radius: $rad-large;
+    font-weight: 300;
+
+    & > h3 {
+      font-weight: 400;
+      margin-top: 0;
+
+      & + span {
+        color: $clr-medium-gray;
+        display: block;
+        font-weight: 500;
+        margin-top: -1.6em;
+        text-transform: uppercase;
+        font-size: 80%;
+      }
+    }
+
+    & > figure {
+      background-color: white;
+      width: em($image-size);
+      height: em($image-size);
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto em($image-padding);
+
+      & > img {
+        width: 100%;
+      }
+    }
+
+    @media screen and (min-width: $bp-small) {
+      position: relative;
+      margin-left: em($image-size + $image-padding);
+
+
+      & > figure {
+        top: 0;
+        position: absolute;
+        left: em(-$image-size - ($image-padding));
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: em(($image-size / 2) - 8);
+        right: 100%;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8px 12px 8px 0;
+        border-color: transparent #ffffff transparent transparent;
+      }
+    }
+
+    @media screen and (max-width: $bp-medium) {
+      font-size: 90%;
+    }
+
+  }
+
+
+}

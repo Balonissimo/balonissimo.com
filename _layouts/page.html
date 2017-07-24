@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article>
+
+  <h2><span>{{ page.title }}</span></h2>
+
+  {{ content }}
+
+  {% if page.buttons %}
+  <footer>
+    {% include buttons.html items=page.buttons %}
+  </footer>
+  {% endif %}
+
+</article>
+
+{% include_cached footer.html lang=page.lang %}
+
+{% js js/default async:true %}

@@ -1,0 +1,19 @@
+main:
+  name: Balonissimo
+  street:
+  postal:
+  locality: Evora - Alentejo
+  tel: "(00351) 935 646 124"
+  mobile:
+  email: info@balonissimo.com
+  additional: circleballoons balonissimo unip. lda. 2016
+
+nelson:
+  name: Nelson
+  street:
+  postal:
+  locality: Evora - Alentejo
+  tel: "(00351) 935 646 124"
+  mobile:
+  email: info@balonissimo.com
+  additional:

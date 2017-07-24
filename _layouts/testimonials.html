@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<article class="intro">
+
+  <h2><span>{{ page.title }}</span></h2>
+
+  {{ content }}
+
+  {% if page.buttons %}
+  <footer>
+    {% include buttons.html items=page.buttons %}
+  </footer>
+  {% endif %}
+
+</article>
+
+
+<section class="testimonials">
+
+  <h2 class="hidden">
+    <span>Testimonials</span>
+  </h2>
+
+  {% assign testimonials = site.testimonials | where: "lang", page.lang %}
+  {{ testimonials | sort: 'date' }}
+
+</section>
+
+{% include_cached footer.html lang=page.lang %}
+
+{% js js/default async:true %}

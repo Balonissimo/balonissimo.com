@@ -1,0 +1,30 @@
+{% assign style = site.image-styles[include.style] %}
+
+{% capture default-resize %}{{ style.default.width }}^x{{ style.default.height }}^{% endcapture %}
+{% capture default-crop %}{{ style.default.width }}x{{ style.default.height }}+0+0{% endcapture %}
+{% assign path = include.file | replace_first: '/', '' %}
+
+{% capture src %}
+{% image_path "{{ path }}" magick:resize:'{{ default-resize }}' magick:crop:'{{ default-crop }}' magick:quality:75 magick:gravity:'{{ style.gravity }}' %}
+{% endcapture %}
+
+{% capture img %}
+<img src="{{ src }}" class="lazyload" data-src="{{ src }}" alt="{{ include.alt }}" width="{{ style.default.width }}" height="{{ style.default.height }}">
+{% endcapture %}
+
+
+{% if style.sizes %}
+<picture>
+  {% for size in style.sizes %}
+  {% capture resize %}{{ size.width }}^x{{ size.height }}^{% endcapture %}
+  {% capture crop %}{{ size.width }}x{{ size.height }}+0+0{% endcapture %}
+  <source media="({{ size.media }})" srcset="{% image_path "{{ path }}" magick:resize:'{{ resize }}' magick:gravity:'{{ style.gravity }}' magick:crop:'{{ crop }}' magick:quality:75 %}">
+  {% endfor %}
+  <noscript>{{ img }}</noscript>
+  {{ img }}
+</picture>
+{% else %}
+
+<noscript>{{ img }}</noscript>
+{{ img }}
+{% endif %}

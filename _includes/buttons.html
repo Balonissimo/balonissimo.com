@@ -1,0 +1,3 @@
+{% for button in include.items %}
+  <a class="button"{% if button.link contains 'http' %} target="_blank"{% endif %} href="{{ button.link }}">{{ button.title }}</a>
+{% endfor %}

@@ -1,0 +1,51 @@
+// section type teasers
+.teasers {
+
+  $teaser-padding: em($sp-base * 2);
+
+  text-align: center;
+
+  & > article {
+    text-align: left;
+    margin-bottom: em($sp-base * 2.25);
+    background-color: white;
+    padding: $teaser-padding;
+    font-weight: 300;
+    font-style: italic;
+
+    @include grid((
+      ($bp-small, 2, $sp-base * 2.25),
+      ($bp-large, 3, $sp-base * 2.25)
+    ));
+
+    & > h3 {
+      font-weight: 500;
+      text-transform: uppercase;
+      border-bottom: 2px solid $clr-text;
+      padding-bottom: .4em;
+      margin-bottom: 1em;
+    }
+
+    & > figure {
+      margin: #{-$teaser-padding} #{-$teaser-padding} $teaser-padding;
+
+      & > img {
+        width: 100%;
+      }
+    }
+
+    a.button {
+      font-size: .8em;
+      padding: .4em 1em;
+      background-color: white;
+      border: 1px solid darken($clr-light-gray,25);
+      color: $clr-text;
+    }
+
+  }
+
+  body.frontpage & {
+    background-color: $clr-main;
+  }
+
+}

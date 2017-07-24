@@ -1,0 +1,26 @@
+// template
+$clr-main: #eeb200;
+$clr-spot: #6e2212;
+
+// gray tints
+$clr-dark-gray: #1c1d1e;
+$clr-medium-gray: #999;
+$clr-light-gray: #f2f2f2;
+
+// status colors
+$clr-notice: #F5DA81;
+$clr-error: #FE2E2E;
+$clr-success: #088A4B;
+
+// text
+$clr-text: $clr-dark-gray;
+$clr-text-focus: #000;
+
+// border
+$clr-border: darken($clr-light-gray,20);
+$clr-border-focus: $clr-main;
+
+// background
+$clr-background: #fff;
+$clr-background-main: $clr-main;
+$clr-background-spot: $clr-spot;

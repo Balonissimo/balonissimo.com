@@ -1,0 +1,194 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Balonissimo
+slogan: Alentejo at sunrise
+email: info@balonissimo.com
+description: Website Balonissimo
+baseurl: # the subpath of your site, e.g. /blog
+url: https://balonissimo.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username: balonissimo
+
+instagram:
+  userId: 2888088742
+  clientId: b67e5ef24b0540d59decdb2e7d9d4dc5
+  accessToken: 2888088742.b67e5ef.d52eac93143a4311af0a3f45ff60f6fe
+
+# Build settings
+markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-assets
+  - jekyll-menus
+  - jekyll-email-protect
+  - jekyll-include-cache
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .cache
+
+# Collections
+collections:
+  galleries:
+    output: true
+  teasers:
+    output: false
+  flights:
+    output: false
+  testimonials:
+    output: false
+
+# Defaults
+defaults:
+
+  # pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      regenerate: true
+      title:
+      permalink:
+      published: true
+      layout: page # page / frontpage / flights / testimonials / galleries
+      lang: en
+      description:
+      banner:
+      buttons: []
+
+  # galleries
+  - scope:
+      type: galleries
+      path: _galleries
+    values:
+      title:
+      permalink:
+      published: true
+      layout: gallery
+      lang: en
+      description:
+      instagram:
+
+  # flights
+  - scope:
+      type: flights
+      path: _flights
+    values:
+      title:
+      permalink:
+      published: true
+      layout: flight
+      lang: en
+      description:
+      banner:
+      instagram:
+      buttons: []
+
+  # teasers
+  - scope:
+      type: teasers
+      path: _teasers
+    values:
+      title:
+      published: true
+      layout: teaser
+      lang: en
+      order: 0
+      image:
+      buttons: []
+
+  # testimonials
+  - scope:
+      type: testimonials
+      path: _testimonials
+    values:
+      title:
+      published: true
+      layout: testimonial
+      lang: en
+      frontpage: false
+      name:
+      date: '2017-01-01'
+      flight:
+      image:
+
+# jekyll-assets
+assets:
+  compress:
+    css: true
+    js: true
+  cache: .cache
+  prefix: /
+  digest: false
+  sources:
+    - _assets
+  autoprefixer:
+    browsers:
+      - last 2 versions
+      - IE > 9
+
+# image sizes
+image-styles:
+  banner:
+    gravity: center
+    default:
+      width: 960
+      height: 720
+    sizes:
+    - media: 'min-width: 1400px'
+      width: 1400
+      height: 640
+    - media: 'min-width: 960px'
+      width: 960
+      height: 640
+    - media: 'max-width: 640px'
+      width: 640
+      height: 480
+  teaser:
+    gravity: center
+    default:
+      width: 360
+      height: 240
+  profile:
+    gravity: center
+    default:
+      width: 180
+      height: 180
+  gallery:
+    gravity: center
+    default:
+      width: 320
+      height: 320
+
+# liquid compress html
+compress_html:
+  clippings: all
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []

@@ -1,0 +1,33 @@
+<footer>
+
+	<div class="footer-contact">
+		<svg class="icon-balloon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-balloon"></use></svg>
+		<div class="vcard">
+			{% assign info = site.data.info %}
+			<span class="org">{{ info.name }}</span>
+			<address class="adr">
+				<span class="locality">{{ info.locality }}</span>
+			</address>
+			<span class="tel">{{ info.tel }}</span>
+			<a class="email" href="mailto:{{ info.email | encode_email }}">{{ info.email }}</a>
+			<span class="info">{{ info.additional }}</span>
+		</div>
+	</div>
+
+	<div class="footer-nav">
+		<ul>
+			{% for item in site.menus[include.lang] %}
+				<li>
+					<a href="{{ item.url }}">{{ item.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<div class="footer-info">
+		{% include_cached social.html %}
+		<p>design and development by:<br />
+		<a href="mailto:{{ "bert.bruggeman@gmail.com" | encode_email }}">Bert Bruggeman</a>
+	</div>
+
+</footer>

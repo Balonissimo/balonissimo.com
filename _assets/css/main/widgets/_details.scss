@@ -1,0 +1,72 @@
+/**
+ * Details widget component
+ */
+
+details {
+  padding: $sp-small;
+  border: 1px solid $clr-border;
+  border-radius: $rad-input;
+  transition: all 0.1s ease-in;
+  margin-bottom: $sp-small;
+
+  summary {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.05s ease-in;
+    cursor: pointer;
+    padding: $sp-small;
+    margin: -$sp-small; // bottom -> -1px
+    border-bottom: 1px solid transparent;
+
+    &::-webkit-details-marker {
+      display:none;
+    }
+
+    &:focus,
+    &:active {
+      outline: none;
+    }
+
+    &:before {
+      content: '+';
+      margin: 0 .8em 0 .4em;
+      font-weight: 300;
+      font-family: monospace;
+      font-size: 1.4em;
+      color: $clr-dark-gray;
+    }
+
+  }
+
+  & > *:not(summary) {
+    display: none;
+  }
+
+
+  &[open="open"],
+  &[open=""] {
+
+    summary {
+      margin-bottom: $sp-small;
+      border-color: $clr-border;
+
+      &:before {
+        content: "-";
+      }
+    }
+
+    & > *:not(summary) {
+      display: initial;
+    }
+
+  }
+
+  &[open="open"] > summary,
+  &[open=""] > summary,
+  summary:hover {
+    background-color: mix(white, $clr-light-gray, 85%)
+  }
+
+
+}

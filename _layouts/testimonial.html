@@ -1,0 +1,8 @@
+<article>
+  <figure>
+    {% include_cached image.html file=page.image style='profile' alt=page.name %}
+  </figure>
+  <h3>{{ page.title }}</h3>
+  <span><strong>{{ page.name }}</strong> - {{ page.flight }}</span>
+  {{ content }}
+</article>

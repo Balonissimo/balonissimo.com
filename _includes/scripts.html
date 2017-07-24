@@ -1,0 +1,30 @@
+{% js js/default async:true %}
+
+{% if include.layout == "form" %}
+{% js js/datepicker async:true %}
+{% endif %}
+
+{% if include.instafeed %}
+{% js js/gallery %}
+{% assign placeholder = "img/1x1.png" | asset_path %}
+<script>
+  var feed = new Instafeed({
+    {% if instafeed == 'latest' %}
+    get: 'user',
+    userId: {{ site.instagram.userId }},
+    limit: 10,
+    {% else %}
+    get: 'tagged',
+    tagName: '{{ include.instafeed }}',
+    {% endif %}
+    sortBy: 'most-recent',
+    clientId: {{ site.instagram.clientId }},
+    accessToken: {{ site.instagram.accessToken }},
+    template: {% raw %}'<figure><a href="{{model.images.standard_resolution.url}}" data-caption="{{caption}} &hearts; {{likes}}"><img class="lazyload" src="{% endraw %}{{ placeholder }}{% raw %}" data-src="{{model.images.low_resolution.url}}" alt="Picture" width="280" height="280"/></a></figure>', {% endraw %}
+    after: function() {
+      baguetteBox.run('#instafeed');
+    },
+  });
+  feed.run();
+</script>
+{% endif %}
