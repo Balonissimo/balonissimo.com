@@ -65,7 +65,6 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
-      - {label: "Permalink", name: "permalink", widget: "string" }
       - {label: "Published", name: "published", widget: "boolean", default: true}
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
       - {label: "Name", name: "name", widget: "string" }
