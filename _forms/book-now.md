@@ -3,7 +3,7 @@ title: Book now!
 permalink: /en/book-now
 lang: en
 description: Book now
-banner: "/media/banners/evora-01.jpg"
+image: "/media/banners/evora-01.jpg"
 fields:
   - name: flight
     label: Choose your flight

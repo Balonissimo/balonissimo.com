@@ -28,7 +28,7 @@ layout: default
   {% for flight in sorted_flights %}
   <article>
     <figure>
-      {% include_cached image.html file=flight.banner style='teaser' alt=flight.title %}
+      {% include_cached image.html file=flight.image style='teaser' alt=flight.title %}
     </figure>
     <h3>{{ flight.title }}</h3>
     {{ flight.content }}

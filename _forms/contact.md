@@ -3,7 +3,7 @@ title: Ask us a question
 permalink: /en/contact
 lang: en
 description: Contact us
-banner: "/media/banners/evora-01.jpg"
+image: "/media/banners/evora-01.jpg"
 fields:
 - name: name
   label: Full name

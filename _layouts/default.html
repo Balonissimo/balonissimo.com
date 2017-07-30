@@ -13,9 +13,9 @@ layout: compress
 
     <h1>{{ site.title }} - {{ site.slogan }}</h1>
 
-    {% if page.banner and page.banner != '' %}
+    {% if page.image and page.image != '' %}
     <header>
-      {% include_cached image.html file=page.banner style='banner' alt=page.title %}
+      {% include_cached image.html file=page.image style='banner' alt=page.title %}
       {% if page.layout == "frontpage" or page.url == '/404' %}
       {% include_cached svg/logo.svg %}
       {% endif %}
