@@ -11,7 +11,8 @@ collections: # A list of collections the CMS should be able to edit
     folder: "_pages" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h2"}
+      - {label: "Layout", name: "layout", widget: "select", options: ["page", "frontpage", "flights", "testimonials", "media"]}
       - {label: "Language", name: "lang", widget: "select", options: ["en", "pt", "nl"]}
-      - {label: "Banner", name: "banner", widget: "image"}
+      - {label: "Banner", name: "banner", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
