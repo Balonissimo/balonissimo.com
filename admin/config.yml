@@ -7,7 +7,7 @@ media_folder: "/media/"
 
 collections:
   - name: "page"
-    label: "Page"
+    label: "Pages"
     folder: "_pages"
     create: true
     fields:
@@ -34,7 +34,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "flights"
-    label: "Flight"
+    label: "Flights"
     folder: "_flights"
     create: true
     fields:
@@ -49,7 +49,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "teasers"
-    label: "Teaser"
+    label: "Teasers"
     folder: "_teasers"
     create: true
     fields:
