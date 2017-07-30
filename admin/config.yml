@@ -58,3 +58,20 @@ collections:
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "_testimonials"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h2"}
+      - {label: "Permalink", name: "permalink", widget: "string" }
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+      - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Name", name: "name", widget: "string" }
+      - {label: "Date", name: "date", widget: "date" }
+      - {label: "Flight", name: "Flight", widget: "string" }
+      - {label: "Image", name: "image", widget: "image", required: false }
+      - {label: "instagram tag", name: "instagram", widget: "string", required: true }
+      - {label: "Body", name: "body", widget: "markdown"}
