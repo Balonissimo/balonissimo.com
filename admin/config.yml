@@ -49,7 +49,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "teasers"
-    label: "Teasers"
+    label: "Teasers frontpage"
     folder: "_teasers"
     create: true
     fields:
