@@ -3,7 +3,7 @@ backend:
   repo: bert-bruggeman/balonissimo.new # Path to your Github repository
   branch: master # Branch to update (master by default)
 
-media_folder: "_assets/media" # Folder where user uploaded files should go
+media_folder: "/media/" # Folder where user uploaded files should go
 
 collections: # A list of collections the CMS should be able to edit
   - name: "page" # Used in routes, e.g., /admin/collections/:slug/edit
@@ -16,4 +16,3 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
       - {label: "Banner", name: "banner", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
- 
