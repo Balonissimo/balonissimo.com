@@ -14,8 +14,8 @@ collections:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Permalink", name: "permalink", widget: "string" }
       - {label: "Published", name: "published", widget: "boolean", default: true}
-      - {label: "Layout", name: "layout", widget: "select", required: false, options: ["page", "frontpage", "flights", "testimonials", "media"], default: "page", tagname: "" }
-      - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en", tagname: "" }
+      - {label: "Layout", name: "layout", widget: "select", required: false, options: ["page", "frontpage", "flights", "testimonials", "media"], default: "page", tagname: "hidden" }
+      - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en", tagname: "hidden" }
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
