@@ -4,7 +4,7 @@ permalink: /en/about-balloons
 layout: page
 lang: en
 description: Hot air balloon flights in Evora and Alentejo
-banner: "/media/banners/evora-01.jpg"
+banner: "/banners/evora-01.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer leo ipsum, tincidunt vitae posuere in, aliquet sed nulla. Ut pharetra neque ante, ut rutrum sem mollis ac. Cras convallis nunc at justo aliquam laoreet. In sem lorem, condimentum quis luctus ac, bibendum quis velit. Pellentesque a gravida nibh. Integer aliquet placerat leo vitae tincidunt. Nunc justo diam, egestas vehicula gravida vitae, tincidunt a tortor. Fusce congue, mauris non lacinia semper, justo massa convallis nisi, non euismod lectus mi a metus. Nam vel lorem ac elit scelerisque dapibus. Pellentesque porta varius leo non vehicula. Maecenas sed hendrerit turpis. Nullam sed augue tellus.

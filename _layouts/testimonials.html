@@ -8,11 +8,10 @@ layout: default
 
   {{ content }}
 
-  {% if page.buttons %}
   <footer>
-    {% include buttons.html items=page.buttons %}
+    {% assign buttons = site.data[page.lang].buttons.testimonials %}
+    {% include buttons.html items=buttons %}
   </footer>
-  {% endif %}
 
 </article>
 

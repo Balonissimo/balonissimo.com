@@ -4,7 +4,7 @@ name: Fernando R
 lang: en
 frontpage: true
 date: '2016-08-17'
-image: "/media/testimonials/fernando-r.jpg"
+image: "/testimonials/fernando-r.jpg"
 flight: Evora from above
 ---
 

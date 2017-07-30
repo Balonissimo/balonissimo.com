@@ -27,6 +27,8 @@ instagram:
   clientId: b67e5ef24b0540d59decdb2e7d9d4dc5
   accessToken: 2888088742.b67e5ef.d52eac93143a4311af0a3f45ff60f6fe
 
+tripadvisor_url: https://www.tripadvisor.com/Attraction_Review-g189106-d10462108-Reviews-Balonissimo-Evora_Evora_District_Alentejo.html
+
 # Build settings
 markdown: kramdown
 # theme: minima
@@ -56,9 +58,11 @@ collections:
   teasers:
     output: false
   flights:
-    output: false
+    output: true
   testimonials:
     output: false
+  forms:
+    output: true
 
 # Defaults
 defaults:
@@ -68,7 +72,6 @@ defaults:
       path: ""
       type: pages
     values:
-      regenerate: true
       title:
       permalink:
       published: true
@@ -102,6 +105,7 @@ defaults:
       layout: flight
       lang: en
       description:
+      price:
       banner:
       instagram:
       buttons: []
@@ -134,6 +138,19 @@ defaults:
       flight:
       image:
 
+  # forms
+  - scope:
+      type: forms
+      path: _forms
+    values:
+      title:
+      permalink:
+      published: true
+      layout: form
+      lang: en
+      description:
+      fields:
+
 # jekyll-assets
 assets:
   compress:
@@ -149,13 +166,13 @@ assets:
       - last 2 versions
       - IE > 9
 
-# image sizes
-image-styles:
+# cloudinary
+cloudinary:
+  id: bertb
   banner:
-    gravity: center
-    default:
-      width: 960
-      height: 720
+    crop: fill
+    width: 960
+    height: 720
     sizes:
     - media: 'min-width: 1400px'
       width: 1400
@@ -167,20 +184,17 @@ image-styles:
       width: 640
       height: 480
   teaser:
-    gravity: center
-    default:
-      width: 360
-      height: 240
+    crop: fill
+    width: 360
+    height: 240
   profile:
-    gravity: center
-    default:
-      width: 180
-      height: 180
+    crop: fill
+    width: 180
+    height: 180
   gallery:
-    gravity: center
-    default:
-      width: 320
-      height: 320
+    crop: fill
+    width: 320
+    height: 320
 
 # liquid compress html
 compress_html:

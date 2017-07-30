@@ -1,0 +1,23 @@
+frontpage-teasers:
+  - title: Vluchten en prijzen
+    url: /nl/vluchten-en-prijzen
+  - title: Boek nu!
+    url: /nl/boek-nu
+
+frontpage-pictures:
+  - title: Meer foto's
+    url: /nl/media
+
+frontpage-testimonials:
+  - title: Meer getuigenissen
+    url: /nl/getuigenissen
+
+flights:
+  - title: Stel ons een vraag
+    url: /nl/contact
+  - title: Boek nu!
+    url: /nl/boek-nu
+
+testimonials:
+  - title: Voeg uw eigen getuigenis toe!
+    url: https://www.tripadvisor.com/Attraction_Review-g189106-d10462108-Reviews-Balonissimo-Evora_Evora_District_Alentejo.html

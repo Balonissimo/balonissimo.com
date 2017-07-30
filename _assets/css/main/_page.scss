@@ -355,13 +355,12 @@ section {
 
 }
 
-
-article.align-center {
+body:not(.page) > article {
   text-align: center;
 }
 
 section:not(.form),
-article.align-center {
+body:not(.page) article {
 
   p {
     font-size: 120%;

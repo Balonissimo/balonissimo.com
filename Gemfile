@@ -23,7 +23,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "autoprefixer-rails"
   gem "uglifier"
-  gem "mini_magick"
   gem "jekyll-assets"
   gem "jekyll-menus"
   gem "jekyll-email-protect"

@@ -20,7 +20,7 @@ en:
   weight: 3
   title: About balloons
 - identifier: flights-and-prices
-  url: "/en/flights-and-prices"
+  url: "/en/flights-and-prices/"
   weight: 2
   title: Flights and prices
 - identifier: home

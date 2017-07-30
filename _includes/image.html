@@ -1,30 +1,25 @@
-{% assign style = site.image-styles[include.style] %}
-
-{% capture default-resize %}{{ style.default.width }}^x{{ style.default.height }}^{% endcapture %}
-{% capture default-crop %}{{ style.default.width }}x{{ style.default.height }}+0+0{% endcapture %}
-{% assign path = include.file | replace_first: '/', '' %}
+{% assign style = site.cloudinary[include.style] %}
 
 {% capture src %}
-{% image_path "{{ path }}" magick:resize:'{{ default-resize }}' magick:crop:'{{ default-crop }}' magick:quality:75 magick:gravity:'{{ style.gravity }}' %}
-{% endcapture %}
-
-{% capture img %}
-<img src="{{ src }}" class="lazyload" data-src="{{ src }}" alt="{{ include.alt }}" width="{{ style.default.width }}" height="{{ style.default.height }}">
+http://res.cloudinary.com/bertb/image/upload/w_{{ style.width }},h_{{ style.height }},c_{{ style.crop }},f_auto/media{{ include.file }}
 {% endcapture %}
 
 
 {% if style.sizes %}
 <picture>
   {% for size in style.sizes %}
-  {% capture resize %}{{ size.width }}^x{{ size.height }}^{% endcapture %}
-  {% capture crop %}{{ size.width }}x{{ size.height }}+0+0{% endcapture %}
-  <source media="({{ size.media }})" srcset="{% image_path "{{ path }}" magick:resize:'{{ resize }}' magick:gravity:'{{ style.gravity }}' magick:crop:'{{ crop }}' magick:quality:75 %}">
+  <source media="({{ size.media }})" srcset="http://res.cloudinary.com/bertb/image/upload/w_{{ size.width }},h_{{ size.height }},c_{{ style.crop }},f_auto/media{{ include.file }}">
   {% endfor %}
-  <noscript>{{ img }}</noscript>
-  {{ img }}
+  <noscript>
+    <img src="{{ src }}" alt="{{ include.alt }}" width="{{ style.width }}" height="{{ style.height }}">
+  </noscript>
+  <img src="{{ src }}" class="lazyload" data-src="{{ src }}" alt="{{ include.alt }}" width="{{ style.width }}" height="{{ style.height }}">
 </picture>
-{% else %}
 
-<noscript>{{ img }}</noscript>
-{{ img }}
+{% else %}
+<noscript>
+  <img src="{{ src }}" alt="{{ include.alt }}" width="{{ style.width }}" height="{{ style.height }}">
+</noscript>
+<img src="{{ src }}" class="lazyload" data-src="{{ src }}" alt="{{ include.alt }}" width="{{ style.width }}" height="{{ style.height }}">
+
 {% endif %}
