@@ -68,7 +68,6 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string" }
       - {label: "Published", name: "published", widget: "boolean", default: true}
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
-      - {label: "Description", name: "description", widget: "text"}
       - {label: "Name", name: "name", widget: "string" }
       - {label: "Date", name: "date", widget: "date" }
       - {label: "Flight", name: "Flight", widget: "string" }
