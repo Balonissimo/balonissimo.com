@@ -78,8 +78,7 @@ defaults:
       layout: page # page / frontpage / flights / testimonials / galleries
       lang: en
       description:
-      banner:
-      buttons: []
+      image:
 
   # galleries
   - scope:
@@ -106,9 +105,8 @@ defaults:
       lang: en
       description:
       price:
-      banner:
+      image:
       instagram:
-      buttons: []
 
   # teasers
   - scope:
@@ -121,7 +119,6 @@ defaults:
       lang: en
       order: 0
       image:
-      buttons: []
 
   # testimonials
   - scope:
@@ -169,7 +166,7 @@ assets:
 # cloudinary
 cloudinary:
   id: bertb
-  banner:
+  image:
     crop: fill
     width: 960
     height: 720
