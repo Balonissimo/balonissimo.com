@@ -14,5 +14,5 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Layout", name: "layout", widget: "select", required: false, options: ["page", "frontpage", "flights", "testimonials", "media"], default: "page" }
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
-      - {label: "Image", name: "image", widget: "image", required: false }
+      - {label: "Image", name: "image", widget: "file", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
