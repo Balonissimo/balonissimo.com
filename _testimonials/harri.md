@@ -4,7 +4,7 @@ name: Harri
 lang: en
 frontpage: true
 date: '2016-11-02'
-image: "/testimonials/male.png"
+image: "/media/testimonials/male.png"
 flight: Evora from above
 ---
 

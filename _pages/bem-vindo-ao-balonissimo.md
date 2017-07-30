@@ -4,7 +4,7 @@ permalink: /
 layout: frontpage
 lang: pt
 description: Voos de balão de ar quente em Évora e Alentejo
-banner: "/banners/evora-01.jpg"
+banner: "/media/banners/evora-01.jpg"
 ---
 
 _Oferecemos voos de balão de ar quente todos os dias em Evora e no Alentejo.
