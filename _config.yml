@@ -166,7 +166,7 @@ assets:
 # cloudinary
 cloudinary:
   id: bertb
-  image:
+  banner:
     crop: fill
     width: 960
     height: 720
