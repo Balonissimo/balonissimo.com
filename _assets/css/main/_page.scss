@@ -606,8 +606,3 @@ noscript + img {
     opacity: 1;
   }
 }
-
-.teasers > article > figure,
-#instafeed:not(:hover) > figure {
-  background: $clr-light-gray url(asset_path("img/loader.gif")) no-repeat center center;
-}
