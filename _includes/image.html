@@ -6,15 +6,23 @@ https://res.cloudinary.com/bertb/image/upload/w_{{ style.width }},h_{{ style.hei
 
 
 {% if style.sizes %}
-<picture>
+
+{% capture srcsets %}
   {% for size in style.sizes %}
   <source media="({{ size.media }})" srcset="https://res.cloudinary.com/bertb/image/upload/w_{{ size.width }},h_{{ size.height }},c_{{ style.crop }},f_auto{{ include.file }}">
   {% endfor %}
-  <noscript>
-    <img src="{{ src }}" alt="{{ include.alt }}" width="{{ style.width }}" height="{{ style.height }}">
-  </noscript>
+{% endcapture %}
+
+<picture>
+  {{ srcsets }}
   <img src="{{ src }}" class="lazyload" data-src="{{ src }}" alt="{{ include.alt }}" width="{{ style.width }}" height="{{ style.height }}">
 </picture>
+<noscript>
+  <picture>
+    {{ srcsets }}
+    <img src="{{ src }}" alt="{{ include.alt }}" width="{{ style.width }}" height="{{ style.height }}">
+  </picture>
+</noscript>
 
 {% else %}
 <noscript>
