@@ -91,8 +91,4 @@ collections:
           - {label: "Label", name: label, widget: string}
           - {label: "type", name: type, widget: string}
           - {label: "Required", name: "required", widget: "boolean", default: false}
-          - label: "Options"
-            name: options
-            widget: "list"
-            fields:
-              - {label: "Option", name: option, widget: string}
+          - {label: "Options", name: options, widget: "list"}
