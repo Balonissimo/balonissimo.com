@@ -83,4 +83,12 @@ collections:
       - {label: "Published", name: "published", widget: "boolean", default: true}
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Fields", name: "fields", widget: "object" }
+      - label: "Fields"
+        name: fields
+        widget: "object"
+        fields:
+          - {label: "Name", name: name, widget: string}
+          - {label: "Label", name: label, widget: string}
+          - {label: "type", name: type, widget: string}
+          - {label: "Required", name: "required", widget: "boolean", default: false}
+          - {label: "Options", name: options, widget: list}
