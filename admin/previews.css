@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  padding: 0 40px;
+  padding: 0;
   margin: 0
 }
 
@@ -40,4 +40,33 @@ img {
 
 .preview {
   text-align: center;
+  padding: 0 40px;
+}
+
+h2:first-child {
+  overflow: hidden;
+  text-align: center;
+}
+
+h2:first-child span {
+  display: inline-block;
+  position: relative;
+}
+
+h2:first-child span:before,
+h2:first-child span:after {
+  content: " ";
+  position: absolute;
+  width: 720px;
+  height: 1px;
+  top: 50%;
+  background-color: $clr-text;
+}
+
+h2:first-child span:before {
+  left: calc(100% + .6em);
+}
+
+h2:first-child span:after {
+  right: calc(100% + .6em);
 }
