@@ -67,4 +67,5 @@ select {
 
 .cms__ListControl__item .material-icons {
   opacity: .5;
+  padding: 0 2px;
 }
