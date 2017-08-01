@@ -1,0 +1,22 @@
+html, body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #444;
+}
+
+body {
+  padding: 0;
+  margin: 0
+}
+
+h2 {
+  font-weight: bold;
+  color: #666;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
