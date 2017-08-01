@@ -10,10 +10,15 @@
 .cms__ControlPane__control select,
 .ProseMirror {
   border: 1px solid lightgrey;
+  border-bottom-width: 2px;
 }
 
 .cms__FileControl__imageUpload {
   border: 1px dashed grey;
+}
+
+.ProseMirror {
+  padding-top: 0;
 }
 
 .cms__ListControl__item {
