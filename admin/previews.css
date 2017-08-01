@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  padding: 0;
+  padding: 40px;
   margin: 0
 }
 
@@ -16,7 +16,7 @@ h1, h2 {
   font-size: 3em;
   line-height: 1.2;
   font-weight: 300;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 
 p {
@@ -24,10 +24,9 @@ p {
 }
 
 img {
+  display: block;
+  margin-left: -40px;
+  margin-right: -40px;
   width: 100%;
   height: auto;
-}
-
-.wrapper {
-  padding: 40p; 
 }
