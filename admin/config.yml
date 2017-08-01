@@ -92,3 +92,17 @@ collections:
           - {label: "type", name: type, widget: string}
           - {label: "Required", name: "required", widget: "boolean", default: false}
           - {label: "Options", name: options, widget: "list"}
+
+    - name: "menus"
+      label: "Menus"
+      folder: "_data/menus"
+      create: false
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - label: "Links"
+          name: links
+          widget: "list"
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Link", name: "link", widget: "string"}
+            - {label: "Description", name: "description", widget: "text"}
