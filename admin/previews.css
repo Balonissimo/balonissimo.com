@@ -86,6 +86,6 @@ img {
   right: calc(100% + .6em);
 }
 
-.preview .teasers {
+.section.teasers {
   background-color: #eeb200;
 }
