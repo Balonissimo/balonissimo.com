@@ -29,13 +29,17 @@ em {
 }
 
 img {
+  width: 100%;
+  height: auto;
+  background: lightgrey;
+  min-height: 250px;
+}
+
+.preview > img {
   display: block;
   margin-left: -40px;
   margin-right: -40px;
   width: calc(100% + 80px);
-  height: auto;
-  background: lightgrey;
-  min-height: 250px;
 }
 
 .preview {
@@ -46,6 +50,17 @@ img {
 .preview > h2 {
   overflow: hidden;
   text-align: center;
+}
+
+.section {
+  padding: 40px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+  margin-left: -40px;
+  margin-right: -40px;
 }
 
 .preview > h2 span {
