@@ -93,16 +93,22 @@ collections:
           - {label: "Required", name: "required", widget: "boolean", default: false}
           - {label: "Options", name: options, widget: "list"}
 
-  - name: "menus"
+ - name: "menus"
     label: "Menus"
-    folder: "_data/menus"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - label: "Links"
-        name: links
-        widget: "list"
+    editor:
+      preview: false
+    files:
+      - name: "en"
+        label: "EN"
+        file: "_data/menus/en.yml"
+        description: "General Site Settings"
         fields:
+          - {label: "Global title", name: "site_title", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Link", name: "link", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
+          - label: "Links"
+            name: links
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
