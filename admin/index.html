@@ -74,13 +74,34 @@
           var bg = this.props.getAsset(image);
           return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
             h('img', {src: 'https://res.cloudinary.com/bertb/image/upload/w_1400,h_640,c_fill,f_auto' + bg.toString()}),
-            h('h2', {}, h('span', {}, entry.getIn(['data', 'title']))),
+            h('h3', {}, h('span', {}, entry.getIn(['data', 'title']))),
             h('div', {"className": "text"}, this.props.widgetFor('body')),
           );
         }
         else {
           return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
-            h('h2', {}, entry.getIn(['data', 'title'])),
+            h('h3', {}, entry.getIn(['data', 'title'])),
+            h('div', {"className": "text"}, this.props.widgetFor('body')),
+          );
+        }
+      }
+    });
+
+    var TestimonialsPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        var image = entry.getIn(['data', 'image']);
+        if (image != null) {
+          var bg = this.props.getAsset(image);
+          return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
+            h('img', {src: 'https://res.cloudinary.com/bertb/image/upload/w_1400,h_640,c_fill,f_auto' + bg.toString(), width: 180}),
+            h('h3', {}, h('span', {}, entry.getIn(['data', 'title']))),
+            h('div', {"className": "text"}, this.props.widgetFor('body')),
+          );
+        }
+        else {
+          return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
+            h('h3', {}, entry.getIn(['data', 'title'])),
             h('div', {"className": "text"}, this.props.widgetFor('body')),
           );
         }
@@ -90,6 +111,7 @@
     CMS.registerPreviewTemplate("pages", PagesPreview);
     CMS.registerPreviewTemplate("teasers", TeaserPreview);
     CMS.registerPreviewTemplate("flights", TeaserPreview);
+    CMS.registerPreviewTemplate("testimonials", TestimonialsPreview);
 
   </script>
 
