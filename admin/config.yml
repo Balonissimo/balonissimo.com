@@ -17,8 +17,13 @@ collections:
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Buttons"
+        name: buttons
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Link", name: "url", widget: "string"}
       - {label: "Published", name: "published", widget: "boolean", default: true}
-
 
   - name: "galleries"
     label: "Galleries"
