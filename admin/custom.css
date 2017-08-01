@@ -44,7 +44,7 @@ select {
 
 .cms__EntryListing__card:after {
   content: "";
-  z-index: 3
+  z-index: 3;
   position: absolute;
   bottom: 0;
   left: 0;
