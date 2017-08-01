@@ -94,7 +94,7 @@
         if (image != null) {
           var bg = this.props.getAsset(image);
           return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
-            h('img', {src: 'https://res.cloudinary.com/bertb/image/upload/w_1400,h_640,c_fill,f_auto' + bg.toString(), width: 180}),
+            h('img', {src: bg.toString(), style: "width: 180px"}),
             h('h3', {}, h('span', {}, entry.getIn(['data', 'title']))),
             h('div', {"className": "text"}, this.props.widgetFor('body')),
           );
