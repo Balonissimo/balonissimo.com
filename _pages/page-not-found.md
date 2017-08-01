@@ -3,7 +3,6 @@ title: Page not found
 permalink: /404
 layout: page
 lang: en
-description: Hot air balloon flights in Evora and Alentejo
 image: "/media/banners/evora-01.jpg"
 ---
 

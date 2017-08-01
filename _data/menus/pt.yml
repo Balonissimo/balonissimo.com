@@ -1,0 +1,22 @@
+title: Navegação
+links:
+- title: Home
+  link: /nl
+  description:
+- title: Vluchten en prijzen
+  link: /nl/flights-and-prices
+  description:
+- title: Media
+  link: /nl/media
+  description:
+- title: Luchtballonnen
+  link: /nl/about-balloons
+  description:
+- title: Boek hier
+  link: /nl/book-now
+  description:
+- title: Getuigenissen
+  link: /nl/testimonials
+  description:
+- title: Contact
+  link: /nl/contact

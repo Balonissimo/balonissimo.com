@@ -1,0 +1,23 @@
+title: Navigation
+links:
+  - title: Home
+    link: /en/
+    description: Hot air balloon flights in Evora and Alentejo
+  - title: Flights and prices
+    link: /en/flights-and-prices/
+    description:
+  - title: Media
+    link: /en/media/
+    description:
+  - title: About balloons
+    link: /en/about-balloons
+    description:
+  - title: Book now
+    link: /en/book-now
+    description:
+  - title: Testimonials
+    link: /en/testimonials
+    description:
+  - title: Contact
+    link: /en/contact
+    description:
