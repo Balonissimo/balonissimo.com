@@ -89,3 +89,7 @@ img {
 .section.teasers {
   background-color: #eeb200;
 }
+
+.text {
+  margin-bottom: 32px;
+}
