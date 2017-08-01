@@ -140,32 +140,32 @@ collections:
       - name: "en"
         label: "Translations (en)"
         file: "_data/translations/en.yml"
+    fields:
+      - label: "Text"
+        name: text
+        widget: "object"
         fields:
-          - label: "Text"
-            name: text
-            widget: "object"
-            fields:
-              - {label: "Teasers frontpage title", name: "teasers-frontpage", widget: "string"}
-              - {label: "Read more text", name: "read-more", widget: "string"}
-          - label: "Buttons"
-            name: buttons
-            widget: "object"
-            fields:
-            - label: "Teasers frontpage"
-              name: frontpage-teasers
-              widget: "list"
-              fields:
-                - {label: "Title", name: "title", widget: "string"}
-                - {label: "Link", name: "url", widget: "string"}
-            - label: "Pictures frontpage"
-              name: frontpage-pictures
-              widget: "list"
-              fields:
-                - {label: "Title", name: "title", widget: "string"}
-                - {label: "Link", name: "url", widget: "string"}
-            - label: "Testimonials frontpage"
-              name: frontpage-testimonials
-              widget: "list"
-              fields:
-                - {label: "Title", name: "title", widget: "string"}
-                - {label: "Link", name: "url", widget: "string"}
+          - {label: "Teasers frontpage title", name: "teasers-frontpage", widget: "string"}
+          - {label: "Read more text", name: "read-more", widget: "string"}
+      - label: "Buttons"
+        name: buttons
+        widget: "object"
+        fields:
+        - label: "Teasers frontpage buttons"
+          name: frontpage-teasers
+          widget: "list"
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Link", name: "url", widget: "string"}
+        - label: "Pictures frontpage buttons"
+          name: frontpage-pictures
+          widget: "list"
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Link", name: "url", widget: "string"}
+        - label: "Testimonials frontpage buttons"
+          name: frontpage-testimonials
+          widget: "list"
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Link", name: "url", widget: "string"}
