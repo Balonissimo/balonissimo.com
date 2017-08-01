@@ -33,3 +33,7 @@ select {
   height: 42px;
   padding-top: 0 4px;
 }
+
+.cms__EntryListing__cardList {
+    margin: 6px 0;
+}
