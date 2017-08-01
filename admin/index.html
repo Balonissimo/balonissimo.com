@@ -16,7 +16,7 @@
         var image = entry.getIn(['data', 'image']);
         var bg = this.props.getAsset(image);
         return h('div', {},
-          h('img', {src: bg.toString()}),
+          h('img', {src: 'https://res.cloudinary.com/bertb/image/upload/w_1400,h_640,c_fill,f_auto' + bg.toString()}),
           h('h2', {}, entry.getIn(['data', 'title'])),
           h('div', {"className": "text"}, this.props.widgetFor('body'))
         );
