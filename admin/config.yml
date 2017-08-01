@@ -99,7 +99,7 @@ collections:
       preview: false
     files:
       - name: "en"
-        label: "EN"
+        label: "Mainmenu (en)"
         file: "_data/menus/en.yml"
         description: "Website navigation"
         fields:
@@ -112,8 +112,21 @@ collections:
               - {label: "Link", name: "link", widget: "string"}
               - {label: "Description", name: "description", widget: "text"}
       - name: "nl"
-        label: "NL"
+        label: "Mainmenu (nl)"
         file: "_data/menus/nl.yml"
+        description: "Website navigation"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Links"
+            name: links
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+      - name: "pt"
+        label: "Mainmenu (pt)"
+        file: "_data/menus/pt.yml"
         description: "Website navigation"
         fields:
           - {label: "Title", name: "title", widget: "string"}

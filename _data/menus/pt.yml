@@ -1,22 +1,22 @@
 title: Navegação
 links:
-- title: Home
-  link: /nl
-  description:
-- title: Vluchten en prijzen
-  link: /nl/flights-and-prices
-  description:
-- title: Media
-  link: /nl/media
-  description:
-- title: Luchtballonnen
-  link: /nl/about-balloons
-  description:
-- title: Boek hier
-  link: /nl/book-now
-  description:
-- title: Getuigenissen
-  link: /nl/testimonials
-  description:
-- title: Contact
-  link: /nl/contact
+  - title: Home
+    link: /
+    description:
+  - title: Voos e preços
+    link: /pt/flights-and-prices
+    description:
+  - title: Media
+    link: /pt/media
+    description:
+  - title: Sobre Balões de ar quente
+    link: /pt/about-balloons
+    description:
+  - title: Reserve já
+    link: /pt/book-now
+    description:
+  - title: Testimonios
+    link: /pt/testimonials
+    description:
+  - title: Contato
+    link: /pt/contact
