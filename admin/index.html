@@ -28,6 +28,18 @@
           );
         }
         
+        if (layout == 'testimonials') {
+          bundles = h('div', {"className": "bundles-frontpage"},
+            h('div', {"className": "section testimonials"}, "Testimonials overview")
+          );
+        }
+        
+        if (layout == 'media') {
+          bundles = h('div', {"className": "bundles-frontpage"},
+            h('div', {"className": "section"}, "Media overview")
+          );
+        }
+        
         if (image != null) {
           var bg = this.props.getAsset(image);
           return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
