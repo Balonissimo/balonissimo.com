@@ -6,7 +6,7 @@ backend:
 media_folder: "/media/"
 
 collections:
-  - name: "page"
+  - name: "pages"
     label: "Pages"
     folder: "_pages"
     create: true
