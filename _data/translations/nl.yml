@@ -1,0 +1,16 @@
+text:
+  teasers-frontpage: Onze troeven
+  read-more: Lees meer
+
+buttons:
+  frontpage-teasers:
+    - title: Vluchten en prijzen
+      url: /nl/vluchten-en-prijzen
+    - title: Boek nu!
+      url: /nl/boek-nu
+  frontpage-pictures:
+    - title: Meer foto's
+      url: /nl/media
+  frontpage-testimonials:
+    - title: Meer getuigenissen
+      url: /nl/getuigenissen

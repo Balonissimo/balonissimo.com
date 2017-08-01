@@ -1,0 +1,16 @@
+text:
+  teasers-frontpage: Our assets
+  read-more: Read more
+
+buttons:
+  frontpage-teasers:
+    - title: Flights and Prices
+      url: /en/flights-and-prices/
+    - title: Book now!
+      url: /en/book-now
+  frontpage-pictures:
+    - title: More pictures
+      url: /en/media/
+  frontpage-testimonials:
+    - title: More testimonials
+      url: /en/testimonials

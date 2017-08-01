@@ -1,0 +1,16 @@
+text:
+  teasers-frontpage: Nossos ativos
+  read-more: Leia mais
+
+buttons:
+  frontpage-teasers:
+    - title: Voos e Preços
+      url: /pt/voos-e-precos
+    - title: Livro agora!
+      url: /pt/livro-agora
+  frontpage-pictures:
+    - title: Mais fotos
+      url: /pt/media
+  frontpage-testimonials:
+    - title: Mais depoimentos
+      url: /pt/mais-depoimentos

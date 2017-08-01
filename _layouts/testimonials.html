@@ -2,18 +2,22 @@
 layout: default
 ---
 
+{% assign stripped = content | strip_newlines %}
+{% if stripped != "" or page.buttons %}
 <article class="intro">
 
   <h2><span>{{ page.title }}</span></h2>
 
   {{ content }}
 
+  {% if page.buttons %}
   <footer>
-    {% assign buttons = site.data[page.lang].buttons.testimonials %}
-    {% include buttons.html items=buttons %}
+    {% include buttons.html items=page.buttons %}
   </footer>
+  {% endif %}
 
 </article>
+{% endif %}
 
 
 <section class="testimonials">

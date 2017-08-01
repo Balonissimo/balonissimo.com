@@ -98,7 +98,6 @@ collections:
       - name: "en"
         label: "Mainmenu (en)"
         file: "_data/menus/en.yml"
-        description: "Website navigation"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - label: "Links"
@@ -111,7 +110,6 @@ collections:
       - name: "nl"
         label: "Mainmenu (nl)"
         file: "_data/menus/nl.yml"
-        description: "Website navigation"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - label: "Links"
@@ -124,7 +122,6 @@ collections:
       - name: "pt"
         label: "Mainmenu (pt)"
         file: "_data/menus/pt.yml"
-        description: "Website navigation"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - label: "Links"
@@ -134,3 +131,41 @@ collections:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Link", name: "link", widget: "string"}
               - {label: "Description", name: "description", widget: "text"}
+
+  - name: "translations"
+    label: "Translations"
+    editor:
+      preview: false
+    files:
+      - name: "en"
+        label: "Translations (en)"
+        file: "_data/translations/en.yml"
+        fields:
+          - label: "Text"
+            name: text
+            widget: "object"
+            fields:
+              - {label: "Teasers frontpage title", name: "teasers-frontpage", widget: "string"}
+              - {label: "Read more text", name: "read-more", widget: "string"}
+          - label: "Buttons"
+            name: buttons
+            widget: "object"
+            fields:
+            - label: "Teasers frontpage"
+              name: frontpage-teasers
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
+            - label: "Pictures frontpage"
+              name: frontpage-pictures
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
+            - label: "Testimonials frontpage"
+              name: frontpage-testimonials
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}

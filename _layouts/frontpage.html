@@ -2,13 +2,22 @@
 layout: default
 ---
 
+{% assign stripped = content | strip_newlines %}
+{% if stripped != "" or page.buttons %}
 <article class="intro">
 
   <h2><span>{{ page.title }}</span></h2>
 
   {{ content }}
 
+  {% if page.buttons %}
+  <footer>
+    {% include buttons.html items=page.buttons %}
+  </footer>
+  {% endif %}
+
 </article>
+{% endif %}
 
 <section class="teasers">
 
@@ -19,7 +28,7 @@ layout: default
   {% assign teasers = site.teasers | where: "lang", page.lang %}
   {{ teasers | sort: 'order' }}
 
-  {% assign teasers-buttons = site.data[page.lang].buttons.frontpage-teasers %}
+  {% assign teasers-buttons = site.data.translations[page.lang].buttons.frontpage-teasers %}
   {% include buttons.html items=teasers-buttons %}
 
 </section>
@@ -35,7 +44,7 @@ layout: default
     <noscript>Visit our instagram page...</noscript>
   </div>
 
-  {% assign pictures-buttons = site.data[page.lang].buttons.frontpage-pictures %}
+  {% assign pictures-buttons = site.data.translations[page.lang].buttons.frontpage-pictures %}
   {% include buttons.html items=pictures-buttons %}
 
 </section>
@@ -50,7 +59,7 @@ layout: default
   {% assign testimonials = site.testimonials | where: "lang", page.lang | where: "frontpage", true %}
   {{ testimonials | sort: 'date' }}
 
-  {% assign testimonials-buttons = site.data[page.lang].buttons.frontpage-testimonials %}
+  {% assign testimonials-buttons = site.data.translations[page.lang].buttons.frontpage-testimonials %}
   {% include buttons.html items=testimonials-buttons %}
 
 </section>

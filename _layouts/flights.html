@@ -2,18 +2,22 @@
 layout: default
 ---
 
+{% assign stripped = content | strip_newlines %}
+{% if stripped != "" or page.buttons %}
 <article class="intro">
 
   <h2><span>{{ page.title }}</span></h2>
 
   {{ content }}
 
+  {% if page.buttons %}
   <footer>
-    {% assign buttons = site.data[page.lang].buttons.flights %}
-    {% include buttons.html items=buttons %}
+    {% include buttons.html items=page.buttons %}
   </footer>
+  {% endif %}
 
 </article>
+{% endif %}
 
 
 <section class="flights teasers">
@@ -34,7 +38,7 @@ layout: default
     {{ flight.content }}
 
     <footer>
-      <a class="read-more" href="{{ flight.url }}">{{ site.data.translations.read-more[page.lang] }}</a>
+      <a class="read-more" href="{{ flight.url }}">{{ site.data.translations[page.lang].text.read-more }}</a>
     </footer>
 
   </article>
