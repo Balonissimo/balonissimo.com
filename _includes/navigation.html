@@ -3,9 +3,9 @@
     <svg class="icon-menu"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu"></use></svg><span>Menu</span>
   </h2>
   <ul data-dropdown-menu>
-    {% for item in site.menus[page.lang] %}
+    {% for item in site.data.menus[page.lang].links %}
       <li>
-        <a href="{{ item.url }}"{% if item.url == page.permalink %} class="active"{% endif %}>
+        <a href="{{ item.link }}"{% if item.link == page.permalink %} class="active"{% endif %}>
           {% if forloop.first %}
           <svg class="icon-balloon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-balloon"></use></svg><span>{{ item.title }}</span>
           {% else %}

@@ -24,7 +24,6 @@ group :jekyll_plugins do
   gem "autoprefixer-rails"
   gem "uglifier"
   gem "jekyll-assets"
-  gem "jekyll-menus"
   gem "jekyll-email-protect"
   gem "jekyll-include-cache"
 end

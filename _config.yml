@@ -36,7 +36,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-assets
-  - jekyll-menus
   - jekyll-email-protect
   - jekyll-include-cache
 
@@ -50,6 +49,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .cache
+
+keep_files:
+  - favicons
+  - media
 
 # Collections
 collections:
