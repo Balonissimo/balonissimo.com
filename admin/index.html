@@ -94,7 +94,7 @@
         if (image != null) {
           var bg = this.props.getAsset(image);
           return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
-            h('img', {src: bg.toString(), style: "width: 180px"}),
+            h('img', {src: bg.toString()}),
             h('h3', {}, h('span', {}, entry.getIn(['data', 'title']))),
             h('div', {"className": "text"}, this.props.widgetFor('body')),
           );
