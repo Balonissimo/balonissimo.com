@@ -10,7 +10,6 @@
 .cms__ControlPane__control select,
 .ProseMirror {
   border: 1px solid lightgrey;
-  border-bottom-width: 2px;
 }
 
 .cms__FileControl__imageUpload {
@@ -28,4 +27,8 @@
 .cms__ListControl__toggleButton {
   background: transparent;
   z-index: 3;
+}
+
+select {
+  height: 32px;
 }
