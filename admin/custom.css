@@ -1,0 +1,8 @@
+.cms__ListControl__item {
+  padding-left: 0;
+}
+
+.cms__ListControl__toggleButton {
+  background: transparent;
+  z-index: 3;
+}
