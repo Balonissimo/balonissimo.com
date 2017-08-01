@@ -90,6 +90,11 @@ img {
   background-color: #eeb200;
 }
 
+.section.testimonials {
+  background-color: #6e2212;
+  color: white;
+}
+
 .text {
   margin-bottom: 56px;
 }
