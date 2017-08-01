@@ -17,7 +17,7 @@
         var entry = this.props.entry;
         var image = entry.getIn(['data', 'image']);
         var bg = this.props.getAsset(image);
-        return h('div', {"className": "preview-" + entry.getIn(['data', 'title'])},
+        return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
           h('img', {src: 'https://res.cloudinary.com/bertb/image/upload/w_1400,h_640,c_fill,f_auto' + bg.toString()}),
           h('h2', {}, entry.getIn(['data', 'title'])),
           h('div', {"className": "text"}, this.props.widgetFor('body'))
