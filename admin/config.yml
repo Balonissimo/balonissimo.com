@@ -96,7 +96,7 @@ collections:
   - name: "menus"
     label: "Menus"
     folder: "_data/menus"
-    create: false
+    create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - label: "Links"
