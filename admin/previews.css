@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie|Roboto:300,300i,400,400i,500,500i,700,700i');
+
 html, body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #444;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #1c1d1e;
 }
 
 body {
@@ -9,14 +11,23 @@ body {
   margin: 0
 }
 
-h2 {
-  font-weight: bold;
-  color: #666;
-  font-size: 32px;
-  margin-top: 20px;
+h1, h2 {
+  font-family: 'Cookie', cursive;
+  font-size: 3em;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+p {
+  line-height: 200%;
 }
 
 img {
   width: 100%;
   height: auto;
+}
+
+.wrapper {
+  padding: 40p; 
 }
