@@ -43,18 +43,18 @@ img {
   padding: 0 40px;
 }
 
-h2:first-child {
+.preview > h2 {
   overflow: hidden;
   text-align: center;
 }
 
-h2:first-child span {
+.preview > h2 span {
   display: inline-block;
   position: relative;
 }
 
-h2:first-child span:before,
-h2:first-child span:after {
+.preview > h2 span:before,
+.preview > h2 span:after {
   content: " ";
   position: absolute;
   width: 720px;
@@ -63,10 +63,10 @@ h2:first-child span:after {
   background-color: $clr-text;
 }
 
-h2:first-child span:before {
+.preview > h2 span:before {
   left: calc(100% + .6em);
 }
 
-h2:first-child span:after {
+.preview > h2 span:after {
   right: calc(100% + .6em);
 }
