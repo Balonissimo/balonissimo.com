@@ -60,7 +60,7 @@ img {
   width: 720px;
   height: 1px;
   top: 50%;
-  background-color: $clr-text;
+  background-color: #1c1d1e;
 }
 
 .preview > h2 span:before {
