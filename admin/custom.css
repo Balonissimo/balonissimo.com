@@ -1,3 +1,11 @@
+.cms__ControlPane__control input,
+.cms__ControlPane__control textarea,
+.cms__ControlPane__control select {
+  font-size: 14px;
+  font-family: inherit;
+  border: 1px solid lightgrey;
+}
+
 .cms__ListControl__item {
   padding-left: 0;
 }
