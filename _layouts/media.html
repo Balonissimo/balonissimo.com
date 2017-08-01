@@ -20,16 +20,33 @@ layout: default
 {% endif %}
 
 
-<section class="media">
+<section class="media teasers">
 
   <h2 class="hidden">
     <span>Galleries</span>
   </h2>
 
   {% assign galleries = site.galleries | where: "lang", page.lang %}
-  {{ galleries | sort: "order" }}
+  {% assign sorted_galleries = galleries | sort: 'order' %}
+
+  {% for gallery in sorted_galleries %}
+  <article>
+    <figure>
+      {% include_cached image.html file=gallery.image style='teaser' alt=gallery.title %}
+    </figure>
+    <h3>{{ gallery.title }}</h3>
+    {{ gallery.content }}
+
+    <footer>
+      <a class="read-more" href="{{ gallery.url }}">{{ site.data.translations[page.lang].text.read-more }}</a>
+    </footer>
+
+  </article>
+
+  {% endfor %}
 
 </section>
+
 
 {% include_cached footer.html lang=page.lang %}
 
