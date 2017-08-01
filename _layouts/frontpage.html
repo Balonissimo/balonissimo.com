@@ -22,7 +22,7 @@ layout: default
 <section class="teasers">
 
   <h2 class="hidden">
-    <span>{{ site.data.translations.teasers-frontpage[page.lang] }}</span>
+    <span>{{ site.data.translations[page.lang].text.teasers-frontpage }}</span>
   </h2>
 
   {% assign teasers = site.teasers | where: "lang", page.lang %}

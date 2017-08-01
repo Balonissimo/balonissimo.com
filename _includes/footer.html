@@ -3,7 +3,7 @@
 	<div class="footer-contact">
 		<svg class="icon-balloon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-balloon"></use></svg>
 		<div class="vcard">
-			{% assign info = site.data.info %}
+			{% assign info = site.data.contacts.main %}
 			<span class="org">{{ info.name }}</span>
 			<address class="adr">
 				<span class="locality">{{ info.locality }}</span>
@@ -16,7 +16,7 @@
 
 	<div class="footer-nav">
 		<ul>
-			{% for item in site.menus[include.lang] %}
+			{% for item in site.data.menus[include.lang].links %}
 				<li>
 					<a href="{{ item.url }}">{{ item.title }}</a>
 				</li>
