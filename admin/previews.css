@@ -53,7 +53,7 @@ img {
 }
 
 .section {
-  padding: 40px;
+  padding: 80px 40px;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
@@ -84,4 +84,8 @@ img {
 
 .preview > h2 span:after {
   right: calc(100% + .6em);
+}
+
+.preview .teasers {
+  background-color: #eeb200;
 }
