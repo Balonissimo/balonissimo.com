@@ -40,6 +40,12 @@
           );
         }
         
+        if (layout == 'flights') {
+          bundles = h('div', {"className": "bundles-frontpage"},
+            h('div', {"className": "section"}, "Flights overview")
+          );
+        }
+        
         if (image != null) {
           var bg = this.props.getAsset(image);
           return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
