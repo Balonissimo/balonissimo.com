@@ -49,7 +49,7 @@
         if (image != null) {
           var bg = this.props.getAsset(image);
           return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
-            h('div', {"style": 'background: url(' + bg.toString() + ');' }),
+            h('div', { style: { backgroundImage: bg.toString() } }),
             h('h2', {}, h('span', {}, entry.getIn(['data', 'title']))),
             h('div', {"className": "text"}, this.props.widgetFor('body')),
             h('div', {"className": "bundles"}, bundles)
