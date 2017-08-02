@@ -13,7 +13,7 @@ layout: compress
 
     <h1>{{ site.title }} - {{ site.slogan }}</h1>
 
-    {% if page.image and page.image != '' %}
+    {% if page.image and page.layout != 'gallery' and page.image != '' %}
     <header>
       {% include_cached image.html file=page.image style='banner' alt=page.title %}
       {% if page.layout == "frontpage" or page.url == '/404' %}
