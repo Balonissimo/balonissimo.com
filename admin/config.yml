@@ -49,6 +49,7 @@ collections:
       - {label: "Price", name: "price", widget: "string" }
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "instagram tag", name: "instagram", widget: "string", required: true }
+      - {label: "Summary", name: "summary", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Published", name: "published", widget: "boolean", default: true}
 
