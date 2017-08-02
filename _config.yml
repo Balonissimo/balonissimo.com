@@ -168,7 +168,7 @@ assets:
 
 # cloudinary
 cloudinary:
-  id: bertb
+  id: balonissimo
   banner:
     crop: fill
     width: 1400
