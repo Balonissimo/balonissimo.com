@@ -45,6 +45,7 @@ img {
 .preview-testimonial img {
   width: 180px;
   margin: 24px auto;
+  min-height: 0;
 }
 
 .preview {
