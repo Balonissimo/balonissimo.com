@@ -3,18 +3,12 @@ layout: default
 ---
 
 {% assign stripped = content | strip_newlines %}
-{% if stripped != "" or page.buttons %}
-<article class="intro">
+{% if stripped != "" %}
+<article>
 
   <h2><span>{{ page.title }}</span></h2>
 
   {{ content }}
-
-  {% if page.buttons %}
-  <footer>
-    {% include buttons.html items=page.buttons %}
-  </footer>
-  {% endif %}
 
 </article>
 {% endif %}
