@@ -34,9 +34,12 @@ select {
   padding-top: 0 4px;
 }
 
+.cms__Card__card p {
+  font-size: 12px;
+}
+
 .cms__EntryListing__cardList {
-    margin: 6px 0;
-    font-size: 11px;
+  margin: 4px 0;
 }
 
 .cms__EntryListing__card {
