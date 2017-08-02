@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: balonissimo/balonissimo.com
+  repo: Balonissimo/balonissimo.com
   branch: master
 
 media_folder: "/media/"
