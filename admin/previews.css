@@ -109,6 +109,7 @@ em {
   max-width: 400px;
   border: 1px solid #e2e2e2;
   margin: 40px auto;
+  text-align: left;
 }
 
 .preview-teaser .bg-img {
@@ -127,9 +128,8 @@ em {
   margin-bottom: 1em;
 }
 
-.preview-teaser > h3,
-.preview-flight > h3 {
-  text-align: left;
+.preview-teaser > .text,
+.preview-flight > .text {
   font-weight: 300;
   font-style: italic;
   font-size: 120%;
