@@ -13,55 +13,55 @@
   <script>
     CMS.registerPreviewStyle("previews.css");
 
+
     var PagesPreview = createClass({
       render: function() {
         var entry = this.props.entry;
         var image = entry.getIn(['data', 'image']);
         var layout = entry.getIn(['data', 'layout']);
-        var bundles = '';
+        var banner = '';
 
-        if (layout == 'frontpage') {
-          bundles = h('div', {"className": "bundles-frontpage"},
-            h('div', {"className": "section teasers"}, "Teasers frontpage"),
-            h('div', {"className": "section"}, "Latest Instagram pictures"),
-            h('div', {"className": "section testimonials"}, "Latest testimonials")
-          );
+        // bundles
+        switch (layout) {
+          case 'frontpage':
+            bundles = h('div', {"className": "bundles-frontpage"},
+              h('div', {"className": "section teasers"}, "Teasers frontpage"),
+              h('div', {"className": "section"}, "Latest Instagram pictures"),
+              h('div', {"className": "section testimonials"}, "Latest testimonials")
+            );
+            break;
+          case 'testimonials':
+            bundles = h('div', {"className": "bundles-frontpage"},
+              h('div', {"className": "section testimonials"}, "Testimonials overview")
+            );
+            break;
+          case 'media':
+            bundles = h('div', {"className": "bundles-frontpage"},
+              h('div', {"className": "section gallery"}, "Media overview")
+            );
+            break;
+          case 'flights':
+            bundles = h('div', {"className": "bundles-frontpage"},
+              h('div', {"className": "section flights"}, "Flights overview")
+            );
+            break;
+          default:
+            bundles = '';
         }
 
-        if (layout == 'testimonials') {
-          bundles = h('div', {"className": "bundles-frontpage"},
-            h('div', {"className": "section testimonials"}, "Testimonials overview")
-          );
-        }
-
-        if (layout == 'media') {
-          bundles = h('div', {"className": "bundles-frontpage"},
-            h('div', {"className": "section"}, "Media overview")
-          );
-        }
-
-        if (layout == 'flights') {
-          bundles = h('div', {"className": "bundles-frontpage"},
-            h('div', {"className": "section"}, "Flights overview")
-          );
-        }
-
+        // image
         if (image != null) {
           var bg = this.props.getAsset(image);
-          return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
-            h('img', {src: 'https://res.cloudinary.com/bertb/image/upload/w_1400,h_640,c_fill,f_auto' + bg.toString()}),
-            h('h2', {}, h('span', {}, entry.getIn(['data', 'title']))),
-            h('div', {"className": "text"}, this.props.widgetFor('body')),
-            h('div', {"className": "bundles"}, bundles)
-          );
+          var banner = h('img', {src: 'https://res.cloudinary.com/bertb/image/upload/w_1400,h_640,c_fill,f_auto' + bg.toString()}),
         }
-        else {
-          return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
-            h('h2', {}, entry.getIn(['data', 'title'])),
-            h('div', {"className": "text"}, this.props.widgetFor('body')),
-            h('div', {"className": "bundles"}, bundles)
-          );
-        }
+
+        return h('div', {"className": "preview preview-" + layout)},
+          banner,
+          h('h2', {}, h('span', {}, entry.getIn(['data', 'title']))),
+          h('div', {"className": "text"}, this.props.widgetFor('body')),
+          bundles
+        );
+
       }
     });
 
