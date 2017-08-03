@@ -28,18 +28,12 @@ em {
   font-size: 110%;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  background: lightgrey;
-  min-height: 250px;
-}
-
-.preview > img {
-  display: block;
+.banner {
+  height: 480px;
   margin-left: -40px;
   margin-right: -40px;
   width: calc(100% + 80px);
+  background-size: cover;
 }
 
 .preview-testimonial img {
