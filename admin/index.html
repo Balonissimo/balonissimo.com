@@ -16,6 +16,7 @@
     // page preview
     var PagesPreview = createClass({
       render: function() {
+
         var entry = this.props.entry;
         var image = entry.getIn(['data', 'image']);
         var layout = entry.getIn(['data', 'layout']);
@@ -52,7 +53,7 @@
         var banner = '';
         if (image != null) {
           var bg = this.props.getAsset(image);
-          var banner = '<div class="banner" style="background-image: url(' + bg.toString() + ')">';
+          var banner = h('div.banner', {style: {'background-image': bg.toString()}}, '')
         }
 
         return h('div', {"className": "preview preview-" + layout},
