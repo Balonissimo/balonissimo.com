@@ -52,7 +52,7 @@
         var banner = '';
         if (image != null) {
           var bg = this.props.getAsset(image);
-          var banner = h('img', {src: 'https://res.cloudinary.com/bertb/image/upload/w_1400,h_640,c_fill,f_auto' + bg.toString()});
+          var banner = '<div class="banner" style="background-image: url(' + bg.toString() + ')">';
         }
 
         return h('div', {"className": "preview preview-" + layout},
