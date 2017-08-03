@@ -3,7 +3,7 @@ title: Welcome to Balonissimo.com
 permalink: /en/
 layout: frontpage
 lang: en
-image: /media/banners/evora-01.jpg
+image: /media/roelie.png
 published: true
 ---
 *We offer hot air balloon flights every day in Evora and **Alentejo**.  
