@@ -117,3 +117,20 @@ em {
   margin-right: -40px;
   width: calc(100% + 80px);
 }
+
+.preview-teaser > h3,
+.preview-flight > h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 2px solid #1c1d1e;
+  padding-bottom: .4em;
+  margin-bottom: 1em;
+}
+
+.preview-teaser > h3,
+.preview-flight > h3 {
+  text-align: left;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 120%;
+}
