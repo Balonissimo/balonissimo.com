@@ -105,17 +105,19 @@ em {
 }
 
 
+
 .preview-teaser {
   max-width: 400px;
+  padding: 0 30px 30px;
   border: 1px solid #e2e2e2;
   margin: 40px auto;
   text-align: left;
+  font-style: italic;
 }
 
 .preview-teaser .bg-img {
   height: 320px;
-  margin-left: -40px;
-  margin-right: -40px;
+  margin: 0 -30px 20px;
   width: calc(100% + 80px);
 }
 
@@ -133,4 +135,13 @@ em {
   font-weight: 300;
   font-style: italic;
   font-size: 120%;
+}
+
+
+
+.preview-testimonial .bg-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 40px auto;
 }
