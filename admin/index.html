@@ -53,7 +53,7 @@
         var banner = '';
         if (image != null) {
           var bg = this.props.getAsset(image);
-          var banner = h('div', {className: 'banner', style: {'background-image': 'url(' + bg.toString() + ')'}}, '')
+          var banner = h('div', {className: 'bg-img banner', style: {'background-image': 'url(' + bg.toString() + ')'}}, '')
         }
 
         return h('div', {"className": "preview preview-" + layout},

@@ -28,12 +28,16 @@ em {
   font-size: 110%;
 }
 
+.bg-img {
+  background-position: center center:
+  background-size: cover;
+}
+
 .banner {
   height: 480px;
   margin-left: -40px;
   margin-right: -40px;
   width: calc(100% + 80px);
-  background-size: cover;
 }
 
 .preview-testimonial img {
