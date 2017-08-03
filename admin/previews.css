@@ -108,8 +108,12 @@ em {
 .preview-teaser {
   max-width: 400px;
   border: 1px solid #e2e2e2;
+  margin: 40px auto;
 }
 
-.bg-img.teaser {
+.preview-teaser .bg-img {
   height: 320px;
+  margin-left: -40px;
+  margin-right: -40px;
+  width: calc(100% + 80px);
 }
