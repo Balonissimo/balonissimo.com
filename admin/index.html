@@ -13,7 +13,7 @@
   <script>
     CMS.registerPreviewStyle("previews.css");
 
-
+    // page preview
     var PagesPreview = createClass({
       render: function() {
         var entry = this.props.entry;
@@ -55,7 +55,7 @@
           var banner = h('img', {src: 'https://res.cloudinary.com/bertb/image/upload/w_1400,h_640,c_fill,f_auto' + bg.toString()});
         }
 
-        return h('div', {"className": "preview preview-" + layout)},
+        return h('div', {"className": "preview preview-" + layout},
           banner,
           h('h2', {}, h('span', {}, entry.getIn(['data', 'title']))),
           h('div', {"className": "text"}, this.props.widgetFor('body')),
