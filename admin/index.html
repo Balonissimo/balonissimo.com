@@ -72,6 +72,7 @@
         return h('div', {"className": "preview preview-gallery"},
           h('h2', {}, h('span', {}, entry.getIn(['data', 'title']))),
           h('div', {"className": "text"}, this.props.widgetFor('body')),
+          h('div', {"className": "section gallery"}, "Instagram pictures")
         );
       }
     });
