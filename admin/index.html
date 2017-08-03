@@ -66,7 +66,7 @@
     });
 
 
-    var GalleryPreview = createClass({
+    var GalleriesPreview = createClass({
       render: function() {
         var entry = this.props.entry;
         var image = entry.getIn(['data', 'image']);
@@ -135,7 +135,7 @@
 
     CMS.registerPreviewStyle("previews.css");
     CMS.registerPreviewTemplate("pages", PagesPreview);
-    CMS.registerPreviewTemplate("gallery", GalleryPreview);
+    CMS.registerPreviewTemplate("galleries", GalleriesPreview);
     CMS.registerPreviewTemplate("teasers", TeaserPreview);
     CMS.registerPreviewTemplate("flights", TeaserPreview);
     CMS.registerPreviewTemplate("testimonials", TestimonialsPreview);
