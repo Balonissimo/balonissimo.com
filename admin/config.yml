@@ -76,7 +76,7 @@ collections:
       - {label: "Name", name: "name", widget: "string" }
       - {label: "Date", name: "date", widget: "date" }
       - {label: "Show on frontpage", name: "frontpage", widget: "boolean", default: false}
-      - {label: "Flight", name: "Flight", widget: "string", required: false }
+      - {label: "Flight", name: "flight", widget: "string", required: false }
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Published", name: "published", widget: "boolean", default: true}

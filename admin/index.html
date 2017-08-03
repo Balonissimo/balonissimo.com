@@ -102,6 +102,7 @@
         return h('div', {"className": "preview preview-testimonial"},
           picture,
           h('h3', {}, h('span', {}, entry.getIn(['data', 'title']))),
+          h('div', {className: 'meta'}, h('span', {}, entry.getIn(['data', 'name'])), ' - ', h('span', {}, entry.getIn(['data', 'flight']))),
           h('div', {"className": "text"}, this.props.widgetFor('body')),
         );
       }
