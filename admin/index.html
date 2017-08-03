@@ -99,7 +99,7 @@
           var picture = h('div', {className: 'bg-img teaser', style: {'background-image': 'url(' + bg.toString() + ')'}}, '')
         }
 
-        return h('div', {"className": "preview preview-teaser"},
+        return h('div', {"className": "preview preview-testimonial"},
           picture,
           h('h3', {}, h('span', {}, entry.getIn(['data', 'title']))),
           h('div', {"className": "text"}, this.props.widgetFor('body')),
