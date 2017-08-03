@@ -91,20 +91,19 @@
       render: function() {
         var entry = this.props.entry;
         var image = entry.getIn(['data', 'image']);
+
+        // image
+        var picture = '';
         if (image != null) {
           var bg = this.props.getAsset(image);
-          return h('div', {"className": "preview preview-testimonial"},
-            h('img', {src: bg.toString()}),
-            h('h3', {}, h('span', {}, entry.getIn(['data', 'title']))),
-            h('div', {"className": "text"}, this.props.widgetFor('body')),
-          );
+          var picture = h('div', {className: 'bg-img teaser', style: {'background-image': 'url(' + bg.toString() + ')'}}, '')
         }
-        else {
-          return h('div', {"className": "preview preview-" + entry.getIn(['data', 'layout'])},
-            h('h3', {}, entry.getIn(['data', 'title'])),
-            h('div', {"className": "text"}, this.props.widgetFor('body')),
-          );
-        }
+
+        return h('div', {"className": "preview preview-teaser"},
+          picture,
+          h('h3', {}, h('span', {}, entry.getIn(['data', 'title']))),
+          h('div', {"className": "text"}, this.props.widgetFor('body')),
+        );
       }
     });
 
