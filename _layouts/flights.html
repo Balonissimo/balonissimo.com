@@ -23,7 +23,7 @@ layout: default
 <section class="flights teasers">
 
   <h2 class="hidden">
-    <span>Our flights</span>
+    <span>{{ site.data.translations[page.lang].text.flights }}</span>
   </h2>
 
   {% assign flights = site.flights | where: "lang", page.lang %}

@@ -37,7 +37,7 @@ layout: default
 <section class="gallery">
 
   <h2>
-    <span>Latest pictures</span>
+    <span>{{ site.data.translations[page.lang].text.latest-pictures }}</span>
   </h2>
 
   <div id="instafeed">
@@ -53,7 +53,7 @@ layout: default
 <section class="testimonials">
 
   <h2>
-    <span>Latest testimonials</span>
+    <span>{{ site.data.translations[page.lang].text.latest-testimonials }}</span>
   </h2>
 
   {% assign testimonials = site.testimonials | where: "lang", page.lang | where: "frontpage", true %}

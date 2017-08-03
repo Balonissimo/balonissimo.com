@@ -156,25 +156,32 @@ collections:
             name: text
             widget: "object"
             fields:
-              - {label: "Teasers frontpage title", name: "teasers-frontpage", widget: "string"}
-              - {label: "Read more text", name: "read-more", widget: "string"}
+              - {label: "Our assets", name: "teasers-frontpage", widget: "string"}
+              - {label: "Read more", name: "read-more", widget: "string"}
+              - {label: "Latest pictures", name: "latest-pictures", widget: "string"}
+              - {label: "Latest testimonials", name: "latest-testimonials", widget: "string"}
+              - {label: "Pictures", name: "pictures", widget: "string"}
+              - {label: "Visit our Instagram page", name: "visit-instagram", widget: "string"}
+              - {label: "Galleries", name: "galleries", widget: "string"}
+              - {label: "Testimonials", name: "testimonials", widget: "string"}
+              - {label: "Flights", name: "flights", widget: "string"}
           - label: "Buttons"
             name: buttons
             widget: "object"
             fields:
-            - label: "Teasers frontpage buttons"
+            - label: "Teasers frontpage"
               name: frontpage-teasers
               widget: "list"
               fields:
                 - {label: "Title", name: "title", widget: "string"}
                 - {label: "Link", name: "url", widget: "string"}
-            - label: "Pictures frontpage buttons"
+            - label: "Pictures frontpage"
               name: frontpage-pictures
               widget: "list"
               fields:
                 - {label: "Title", name: "title", widget: "string"}
                 - {label: "Link", name: "url", widget: "string"}
-            - label: "Testimonials frontpage buttons"
+            - label: "Testimonials frontpage"
               name: frontpage-testimonials
               widget: "list"
               fields:
@@ -188,25 +195,32 @@ collections:
             name: text
             widget: "object"
             fields:
-              - {label: "Teasers frontpage title", name: "teasers-frontpage", widget: "string"}
-              - {label: "Read more text", name: "read-more", widget: "string"}
-          - label: "Buttons"
+              - {label: "Our assets", name: "teasers-frontpage", widget: "string"}
+              - {label: "Read more", name: "read-more", widget: "string"}
+              - {label: "Latest pictures", name: "latest-pictures", widget: "string"}
+              - {label: "Latest testimonials", name: "latest-testimonials", widget: "string"}
+              - {label: "Pictures", name: "pictures", widget: "string"}
+              - {label: "Visit our Instagram page", name: "visit-instagram", widget: "string"}
+              - {label: "Galleries", name: "galleries", widget: "string"}
+              - {label: "Testimonials", name: "testimonials", widget: "string"}
+              - {label: "Flights", name: "flights", widget: "string"}
+            - label: "Buttons"
             name: buttons
             widget: "object"
             fields:
-            - label: "Teasers frontpage buttons"
+            - label: "Teasers frontpage"
               name: frontpage-teasers
               widget: "list"
               fields:
                 - {label: "Title", name: "title", widget: "string"}
                 - {label: "Link", name: "url", widget: "string"}
-            - label: "Pictures frontpage buttons"
+            - label: "Pictures frontpage"
               name: frontpage-pictures
               widget: "list"
               fields:
                 - {label: "Title", name: "title", widget: "string"}
                 - {label: "Link", name: "url", widget: "string"}
-            - label: "Testimonials frontpage buttons"
+            - label: "Testimonials frontpage"
               name: frontpage-testimonials
               widget: "list"
               fields:
@@ -220,25 +234,32 @@ collections:
             name: text
             widget: "object"
             fields:
-              - {label: "Teasers frontpage title", name: "teasers-frontpage", widget: "string"}
-              - {label: "Read more text", name: "read-more", widget: "string"}
-          - label: "Buttons"
+              - {label: "Our assets", name: "teasers-frontpage", widget: "string"}
+              - {label: "Read more", name: "read-more", widget: "string"}
+              - {label: "Latest pictures", name: "latest-pictures", widget: "string"}
+              - {label: "Latest testimonials", name: "latest-testimonials", widget: "string"}
+              - {label: "Pictures", name: "pictures", widget: "string"}
+              - {label: "Visit our Instagram page", name: "visit-instagram", widget: "string"}
+              - {label: "Galleries", name: "galleries", widget: "string"}
+              - {label: "Testimonials", name: "testimonials", widget: "string"}
+              - {label: "Flights", name: "flights", widget: "string"}
+            - label: "Buttons"
             name: buttons
             widget: "object"
             fields:
-            - label: "Teasers frontpage buttons"
+            - label: "Teasers frontpage"
               name: frontpage-teasers
               widget: "list"
               fields:
                 - {label: "Title", name: "title", widget: "string"}
                 - {label: "Link", name: "url", widget: "string"}
-            - label: "Pictures frontpage buttons"
+            - label: "Pictures frontpage"
               name: frontpage-pictures
               widget: "list"
               fields:
                 - {label: "Title", name: "title", widget: "string"}
                 - {label: "Link", name: "url", widget: "string"}
-            - label: "Testimonials frontpage buttons"
+            - label: "Testimonials frontpage"
               name: frontpage-testimonials
               widget: "list"
               fields:
