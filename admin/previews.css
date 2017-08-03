@@ -103,3 +103,13 @@ em {
 .text {
   margin-bottom: 56px;
 }
+
+
+.preview-teaser {
+  max-width: 400px;
+  border: 1px solid #e2e2e2;
+}
+
+.bg-img.teaser {
+  height: 320px;
+}
