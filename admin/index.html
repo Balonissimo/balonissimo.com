@@ -78,6 +78,18 @@
     });
 
 
+    var FormPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        return h('div', {"className": "preview preview-form"},
+          h('h2', {}, h('span', {}, entry.getIn(['data', 'title']))),
+          h('div', {"className": "text"}, this.props.widgetFor('body')),
+          h('div', {"className": "section gallery"}, "Form")
+        );
+      }
+    });
+
+
     var TeaserPreview = createClass({
       render: function() {
         var entry = this.props.entry;
@@ -125,6 +137,7 @@
     CMS.registerPreviewTemplate("pages", PagesPreview);
     CMS.registerPreviewTemplate("galleries", GalleriesPreview);
     CMS.registerPreviewTemplate("teasers", TeaserPreview);
+    CMS.registerPreviewTemplate("forms", FormPreview);
     CMS.registerPreviewTemplate("flights", TeaserPreview);
     CMS.registerPreviewTemplate("testimonials", TestimonialsPreview);
 
