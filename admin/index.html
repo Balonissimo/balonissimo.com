@@ -66,6 +66,30 @@
     });
 
 
+    var GalleryPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        var image = entry.getIn(['data', 'image']);
+
+        // image
+        var banner = '';
+        if (image != null) {
+          var bg = this.props.getAsset(image);
+          var picture = h('div', {className: 'bg-img banner', style: {'background-image': 'url(' + bg.toString() + ')'}}, '')
+        }
+
+        return h('div', {"className": "preview preview-gallery"},
+          picture,
+          h('h2', {}, h('span', {}, entry.getIn(['data', 'title']))),
+          h('div', {"className": "text"}, this.props.widgetFor('body')),
+          h('div', {"className": "section gallery"}, "Instagram pictures")
+
+        );
+
+      }
+    });
+
+
     var TeaserPreview = createClass({
       render: function() {
         var entry = this.props.entry;
@@ -111,6 +135,7 @@
 
     CMS.registerPreviewStyle("previews.css");
     CMS.registerPreviewTemplate("pages", PagesPreview);
+    CMS.registerPreviewTemplate("gallery", GalleryPreview);
     CMS.registerPreviewTemplate("teasers", TeaserPreview);
     CMS.registerPreviewTemplate("flights", TeaserPreview);
     CMS.registerPreviewTemplate("testimonials", TestimonialsPreview);
