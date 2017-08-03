@@ -24,6 +24,7 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Link", name: "url", widget: "string"}
+    meta:
       - {label: "Published", name: "published", widget: "boolean", default: true}
 
 
