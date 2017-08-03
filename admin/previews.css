@@ -149,3 +149,9 @@ em {
   font-weight: 500;
   font-size: 140%;
 }
+
+.preview-testimonial .meta {
+  margin-top: -15px;
+  color: grey;
+  text-transform: uppercase;
+}
