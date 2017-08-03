@@ -17,4 +17,229 @@ collections:
       - {label: "Layout", name: "layout", widget: "select", required: false, options: ["page", "frontpage", "flights", "testimonials", "media"], default: "page" }
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
       - {label: "Image", name: "image", widget: "image", required: false }
-      - {label: "Body", name: "body", widget: "markdown" }
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Buttons"
+        name: buttons
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Link", name: "url", widget: "string"}
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+
+
+  - name: "galleries"
+    label: "Galleries"
+    folder: "_galleries"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h2"}
+      - {label: "Permalink", name: "permalink", widget: "string" }
+      - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
+      - {label: "Image", name: "image", widget: "image", required: false }
+      - {label: "instagram tag", name: "instagram", widget: "string", required: true }
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+
+  - name: "flights"
+    label: "Flights"
+    folder: "_flights"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h2"}
+      - {label: "Permalink", name: "permalink", widget: "string" }
+      - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
+      - {label: "Price", name: "price", widget: "string" }
+      - {label: "Image", name: "image", widget: "image", required: false }
+      - {label: "instagram tag", name: "instagram", widget: "string", required: true }
+      - {label: "Summary", name: "summary", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+
+  - name: "teasers"
+    label: "Teasers"
+    folder: "_teasers"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h2"}
+      - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
+      - {label: "Image", name: "image", widget: "image", required: false }
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "_testimonials"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h2"}
+      - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
+      - {label: "Name", name: "name", widget: "string" }
+      - {label: "Date", name: "date", widget: "date" }
+      - {label: "Show on frontpage", name: "frontpage", widget: "boolean", default: false}
+      - {label: "Flight", name: "Flight", widget: "string", required: false }
+      - {label: "Image", name: "image", widget: "image", required: false }
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+
+  - name: "forms"
+    label: "Forms"
+    folder: "_forms"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h2"}
+      - {label: "Permalink", name: "permalink", widget: "string" }
+      - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
+      - label: "Fields"
+        name: fields
+        widget: "list"
+        fields:
+          - {label: "Name", name: name, widget: string}
+          - {label: "Label", name: label, widget: string}
+          - {label: "type", name: type, widget: string}
+          - {label: "Required", name: "required", widget: "boolean", default: false}
+          - {label: "Options", name: options, widget: "list"}
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+
+  - name: "menus"
+    label: "Menus"
+    editor:
+      preview: false
+    files:
+      - name: "en"
+        label: "Mainmenu (en)"
+        file: "_data/menus/en.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Links"
+            name: links
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+      - name: "nl"
+        label: "Mainmenu (nl)"
+        file: "_data/menus/nl.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Links"
+            name: links
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+      - name: "pt"
+        label: "Mainmenu (pt)"
+        file: "_data/menus/pt.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Links"
+            name: links
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+
+  - name: "translations"
+    label: "Translations"
+    editor:
+      preview: false
+    files:
+      - name: "en"
+        label: "Translations (en)"
+        file: "_data/translations/en.yml"
+        fields:
+          - label: "Text"
+            name: text
+            widget: "object"
+            fields:
+              - {label: "Teasers frontpage title", name: "teasers-frontpage", widget: "string"}
+              - {label: "Read more text", name: "read-more", widget: "string"}
+          - label: "Buttons"
+            name: buttons
+            widget: "object"
+            fields:
+            - label: "Teasers frontpage buttons"
+              name: frontpage-teasers
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
+            - label: "Pictures frontpage buttons"
+              name: frontpage-pictures
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
+            - label: "Testimonials frontpage buttons"
+              name: frontpage-testimonials
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
+      - name: "nl"
+        label: "Translations (nl)"
+        file: "_data/translations/nl.yml"
+        fields:
+          - label: "Text"
+            name: text
+            widget: "object"
+            fields:
+              - {label: "Teasers frontpage title", name: "teasers-frontpage", widget: "string"}
+              - {label: "Read more text", name: "read-more", widget: "string"}
+          - label: "Buttons"
+            name: buttons
+            widget: "object"
+            fields:
+            - label: "Teasers frontpage buttons"
+              name: frontpage-teasers
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
+            - label: "Pictures frontpage buttons"
+              name: frontpage-pictures
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
+            - label: "Testimonials frontpage buttons"
+              name: frontpage-testimonials
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
+      - name: "pt"
+        label: "Translations (pt)"
+        file: "_data/translations/pt.yml"
+        fields:
+          - label: "Text"
+            name: text
+            widget: "object"
+            fields:
+              - {label: "Teasers frontpage title", name: "teasers-frontpage", widget: "string"}
+              - {label: "Read more text", name: "read-more", widget: "string"}
+          - label: "Buttons"
+            name: buttons
+            widget: "object"
+            fields:
+            - label: "Teasers frontpage buttons"
+              name: frontpage-teasers
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
+            - label: "Pictures frontpage buttons"
+              name: frontpage-pictures
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
+            - label: "Testimonials frontpage buttons"
+              name: frontpage-testimonials
+              widget: "list"
+              fields:
+                - {label: "Title", name: "title", widget: "string"}
+                - {label: "Link", name: "url", widget: "string"}
