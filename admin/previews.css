@@ -117,8 +117,9 @@ em {
 
 .preview-teaser .bg-img {
   height: 320px;
-  margin: 0 -30px 20px;
-  width: calc(100% + 80px);
+  margin: 0 -30px 30px;
+  width: calc(100% + 60px);
+  font-size: 120%;
 }
 
 .preview-teaser > h3,
@@ -133,8 +134,6 @@ em {
 .preview-teaser > .text,
 .preview-flight > .text {
   font-weight: 300;
-  font-style: italic;
-  font-size: 120%;
 }
 
 
