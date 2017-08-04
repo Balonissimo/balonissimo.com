@@ -1,12 +1,15 @@
 ---
-title: About balloons
+title: About Baloníssimo
 permalink: /en/about-balloons
-published: true
 layout: page
 lang: en
-image: /media/landing.jpg
+image: /media/balloonteam.JPG
+published: true
 ---
+The pilot of Baloníssimo, **Nelson** J. Baetslé is from Belgium and has 15 years of experience in ballooning.  He started as a ground-crew member and soon became a student-pilot, he got his  private licence in 2006. In those years he felt in love withe the Alentejo in Portugal and never stopped coming back.  Two years later he got the commercial licence and since than  he flew already more than 30 different balloons in 15 countries and 4 continents.  In 2015 he founded  Baloníssimo in Evora, Portugal.  The joy of flying in a hot air balloon is something he wants to share.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer leo ipsum, tincidunt vitae posuere in, aliquet sed nulla. Ut pharetra neque ante, ut rutrum sem mollis ac. Cras convallis nunc at justo aliquam laoreet. In sem lorem, condimentum quis luctus ac, bibendum quis velit. Pellentesque a gravida nibh. Integer aliquet placerat leo vitae tincidunt. Nunc justo diam, egestas vehicula gravida vitae, tincidunt a tortor. Fusce congue, mauris non lacinia semper, justo massa convallis nisi, non euismod lectus mi a metus. Nam vel lorem ac elit scelerisque dapibus. Pellentesque porta varius leo non vehicula. Maecenas sed hendrerit turpis. Nullam sed augue tellus.
+For booking and info, you will probably talk or mail with** Isis** , she schedules the flights, replies your emails ad questions, helps as a ground crew and organises a traditional after-ballooning-picnic if you like.  
 
-Donec justo velit, fringilla sed ullamcorper eget, pellentesque at neque. Donec id convallis leo, in condimentum lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam ut luctus odio. Sed porta in dolor et ornare. Donec vulputate vestibulum magna at congue. Nulla magna diam, rutrum vitae sollicitudin sit amet, placerat sit amet justo. Integer eget lectus quis ipsum iaculis porttitor. Cras feugiat ligula vel diam suscipit vulputate. Nulla rutrum sapien odio. Fusce semper sit amet arcu vel dictum. Praesent ornare mattis tincidunt.
+To set up the balloon, get us airborn and back after landing, we can count on **Francisco**, the chase has no more secrets for him.  He knows the region follows the balloon by road or even when there is no road at all, he finds us.  
+
+One other important member for ground assistance is **Budha**, he loves to help and play, entertain us and run around… just for some food, water and a lot of love and attention..  
