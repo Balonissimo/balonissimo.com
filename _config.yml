@@ -195,6 +195,11 @@ cloudinary:
     crop: fill
     width: 320
     height: 320
+  sidebar:
+    crop: fill
+    width: 420
+    height: 420
+
 
 # liquid compress html
 compress_html:

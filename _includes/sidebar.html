@@ -1,0 +1,8 @@
+{% for item in include.items %}
+  <figure>
+    {% include_cached image.html file=item.image style='sidebar' alt=item.title %}
+    {% if item.description %}
+    <figcaption>{{ item.description }}</figcaption>
+    {% endif %}
+  </figure>
+{% endfor %}

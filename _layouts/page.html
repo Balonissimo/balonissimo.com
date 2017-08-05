@@ -6,7 +6,12 @@ layout: default
 
   <h2><span>{{ page.title }}</span></h2>
 
+  {% if page.sidebar %}
+    <div class="content">{{ content }}</div>
+    <div class="sidebar">{% include sidebar.html items=page.sidebar %}</div>
+  {% else %}
   {{ content }}
+  {% endif %}
 
   {% if page.buttons %}
   <footer>

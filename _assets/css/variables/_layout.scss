@@ -3,7 +3,7 @@ $ff-default: "Roboto";
 $ff-headings: "Cookie";
 
 // base
-$fs-base: 15;
+$fs-base: 16;
 $lh-base: 32;
 $sp-base: 16;
 
@@ -28,9 +28,9 @@ $bp-large: 1180px;
 $bp-huge: 1360px;
 
 // spacing
-$sp-small: em($sp-base - ($sp-base / 4));
-$sp-medium: em($sp-base);
-$sp-large: em($sp-base + ($sp-base / 4));
+$sp-small: em($sp-base * 1);
+$sp-medium: em($sp-base * 1.2);
+$sp-large: em($sp-base * 1.4);
 
 // border radius
 $rad-small: em(2);

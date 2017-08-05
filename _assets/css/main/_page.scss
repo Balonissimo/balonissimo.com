@@ -396,6 +396,14 @@ body:not(.page) article {
   }
 }
 
+body.page article {
+  em {
+    font-size: 120%;
+  }
+  footer {
+    margin-top: $sp-large;
+  }
+}
 
 
 nav + section,
@@ -605,4 +613,40 @@ noscript + img {
   &.lazyloaded {
     opacity: 1;
   }
+}
+
+
+article > .content,
+article > .sidebar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+article > .content {
+  margin: -1em 0 3em;
+}
+
+article > .sidebar figure {
+  background-color: $clr-light-gray;
+  border: 1px solid $clr-border;
+
+  img {
+    width: 100%;
+  }
+
+  figcaption {
+    padding: $sp-medium;
+    color: dimgrey;
+  }
+}
+
+@media screen and (min-width: $bp-medium) {
+  article > .content {
+    width: 66%;
+    padding-right: 6%;
+  }
+  article > .sidebar {
+    width: 34%;
+  }
+
 }

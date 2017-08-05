@@ -25,6 +25,14 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Link", name: "url", widget: "string"}
+      - label: "Sidebar"
+        name: sidebar
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Description", name: "description", widget: "text"}
       - {label: "Published", name: "published", widget: "boolean", default: true}
 
 
