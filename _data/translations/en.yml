@@ -13,14 +13,11 @@ buttons:
   frontpage-teasers:
     - title: Flights and Prices
       url: /en/flights-and-prices/
-      icon: balloon
     - title: Book now!
       url: /en/book-now
   frontpage-pictures:
     - title: More pictures
       url: /en/media/
-      icon: plus
   frontpage-testimonials:
     - title: More testimonials
       url: /en/testimonials
-      icon: plus
