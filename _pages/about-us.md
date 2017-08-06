@@ -3,7 +3,7 @@ title: About us
 permalink: /en/about-us
 layout: page
 lang: en
-image: /media/banners/evora-01.jpg
+image: /media/jeep.jpg
 buttons:
   - title: Follow us on facebook
     url: "#"
