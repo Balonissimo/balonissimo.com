@@ -660,6 +660,11 @@ article > .sidebar figure {
   vertical-align: top;
   margin: 0 .4em 0 -.4em;
   opacity: .75;
+  
+  &.icon-tripadvisor {
+    width: 1.6em;
+    margin-top: .08em;
+  }
 }
 
 .button:hover svg {
