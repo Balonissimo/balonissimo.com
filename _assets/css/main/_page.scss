@@ -627,8 +627,6 @@ article > .content {
 }
 
 article > .sidebar figure {
-  background-color: $clr-light-gray;
-  border: 1px solid $clr-border;
 
   img {
     width: 100%;
@@ -637,6 +635,8 @@ article > .sidebar figure {
   figcaption {
     padding: $sp-medium;
     color: dimgrey;
+    border: 1px dashed $clr-border;
+    border-top-width: 0;
   }
 }
 
