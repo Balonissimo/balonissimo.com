@@ -25,6 +25,7 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Link", name: "url", widget: "string"}
+          - {label: "Icon", name: "icon", widget: "select", required: false, options: ["balloon", "facebook", "intagram", "tripadvisor"] }
       - label: "Sidebar"
         name: sidebar
         required: false
