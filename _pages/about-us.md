@@ -3,20 +3,18 @@ title: About us
 permalink: /en/about-us
 layout: page
 lang: en
-image: /media/jeep.jpg
+image: /media/evora-02.jpg
 buttons:
-  - title: Follow us on facebook
-    url: "#"
-    icon: facebook
-  - title: Watch us at Instagram
-    url: "#"
-    icon: instagram
+  - icon: facebook
+    title: Follow us on facebook
+    url: 'https://www.facebook.com/balonissimo'
+  - icon: instagram
+    title: Watch us at Instagram
+    url: 'https://www.instagram.com/balonissimo/'
 sidebar:
-  - title: Picture
+  - description: The Balonissimo team
+    title: Picture
     image: /media/balloonteam.JPG
-    description: The Balonissimo team
-
-
 published: true
 ---
 *The pilot of Baloníssimo, **Nelson** J. Baetslé is from Belgium and has 15 years of experience in **ballooning**. He started as a ground-crew member and soon became a student-pilot, he got his private licence in 2006. In those years he felt in love with the **Alentejo** in **Portugal** and never stopped coming back.*
@@ -30,3 +28,4 @@ For booking and info, you will probably talk or mail with **Isis**, she schedule
 To set up the balloon, get us airborn and back after landing, we can count on **Francisco**, the chase has no more secrets for him. He knows the region follows the balloon by road or even when there is no road at all, he finds us!
 
 One other important member for ground assistance is **Budha**, he loves to help and play, entertain us and run around… just for some food, water and a lot of love and attention..
+
