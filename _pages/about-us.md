@@ -7,8 +7,10 @@ image: /media/jeep.jpg
 buttons:
   - title: Follow us on facebook
     url: "#"
-  - title: Watch us at instagram
+    icon: facebook
+  - title: Watch us at Instagram
     url: "#"
+    icon: instagram
 sidebar:
   - title: Picture
     image: /media/balloonteam.JPG
@@ -23,7 +25,7 @@ Two years later he got the commercial licence and since than he flew already mor
 
 > The joy of flying in a **hot air balloon** is something we want to share!
 
-For booking and info, you will probably talk or mail with **Isis**, she schedules the flights, replies your emails ad questions, helps as a ground crew and organises a traditional after-ballooning-picnic if you like.
+For booking and info, you will probably talk or mail with **Isis**, she schedules the flights, replies your emails and questions, helps as a ground crew and organises a traditional after-ballooning-picnic if you like.
 
 To set up the balloon, get us airborn and back after landing, we can count on **Francisco**, the chase has no more secrets for him. He knows the region follows the balloon by road or even when there is no road at all, he finds us!
 
