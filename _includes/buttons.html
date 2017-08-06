@@ -1,3 +1,8 @@
 {% for button in include.items %}
-  <a class="button"{% if button.url contains 'http' %} target="_blank"{% endif %} href="{{ button.url }}">{{ button.title }}</a>
+  <a class="button"{% if button.url contains 'http' %} target="_blank"{% endif %} href="{{ button.url }}">
+    {% if button.icon %}
+    <svg class="icon-{{ button.icon }}"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-{{ button.icon }}"></use></svg>
+    {% endif %}
+    {{ button.title }}
+  </a>
 {% endfor %}
