@@ -3,7 +3,7 @@ title: About us
 permalink: /en/about-us
 layout: page
 lang: en
-image: /media/evora-02.jpg
+image: /media/banners/sunrise.jpg
 buttons:
   - icon: facebook
     title: Follow us on facebook
