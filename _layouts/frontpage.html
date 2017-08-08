@@ -27,10 +27,10 @@ layout: default
 
   {% assign teasers = site.teasers | where: "lang", page.lang %}
   {{ teasers | sort: 'order' }}
-
-  {% assign teasers-buttons = site.data.translations[page.lang].buttons.frontpage-teasers %}
-  {% include buttons.html items=teasers-buttons %}
-
+  <footer>
+    {% assign teasers-buttons = site.data.translations[page.lang].buttons.frontpage-teasers %}
+    {% include buttons.html items=teasers-buttons %}
+  </footer>
 </section>
 
 
@@ -43,10 +43,10 @@ layout: default
   <div id="instafeed">
     <noscript>Visit our instagram page...</noscript>
   </div>
-
-  {% assign pictures-buttons = site.data.translations[page.lang].buttons.frontpage-pictures %}
-  {% include buttons.html items=pictures-buttons %}
-
+  <footer>
+    {% assign pictures-buttons = site.data.translations[page.lang].buttons.frontpage-pictures %}
+    {% include buttons.html items=pictures-buttons %}
+  </footer>
 </section>
 
 
@@ -58,10 +58,10 @@ layout: default
 
   {% assign testimonials = site.testimonials | where: "lang", page.lang | where: "frontpage", true %}
   {{ testimonials | sort: 'date' }}
-
-  {% assign testimonials-buttons = site.data.translations[page.lang].buttons.frontpage-testimonials %}
-  {% include buttons.html items=testimonials-buttons %}
-
+  <footer>
+    {% assign testimonials-buttons = site.data.translations[page.lang].buttons.frontpage-testimonials %}
+    {% include buttons.html items=testimonials-buttons %}
+  </footer>
 </section>
 
 {% include_cached footer.html lang=page.lang %}

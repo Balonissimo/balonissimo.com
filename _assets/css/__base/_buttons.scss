@@ -1,0 +1,42 @@
+[type="submit"],
+[type="reset"],
+button,
+.button  {
+  display: inline-block;
+  border: 0;
+  margin: 0;
+  padding: $pad-button;
+  text-align: inherit;
+  text-transform: inherit;
+  font: inherit;
+  font-weight: 600;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  color: $clr-button-text;
+  border-radius: $rad-button;
+  background: $clr-button-background;
+  cursor: pointer;
+  overflow: visible;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s ease;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    background-color: shade($clr-button-background, 20%);
+    color: $clr-button-text;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+}
