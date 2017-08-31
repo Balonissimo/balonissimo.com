@@ -6,7 +6,32 @@ layout: default
 
   <h2><span>{{ page.title }}</span></h2>
 
+  {% if page.sidebar %}
+    <div class="content">{{ content }}</div>
+    <div class="sidebar">{% include sidebar.html items=page.sidebar %}</div>
+  {% else %}
   {{ content }}
+  {% endif %}
+
+  {% if page.prices %}
+  <dl class="prices">
+  {% for price in page.prices %}
+      <dt>{{ price.label }}</dt>
+      <dd>
+        {{ price.price }}
+        {% if price.description %}
+        <span>{{ price.description }}</span>
+        {% endif %}
+      </dd>
+  {% endfor %}
+  </dl>
+  {% endif %}
+
+  {% if page.buttons %}
+  <footer>
+    {% include buttons.html items=page.buttons %}
+  </footer>
+  {% endif %}
 
 </article>
 
