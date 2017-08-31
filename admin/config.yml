@@ -59,7 +59,7 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string" }
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
       - {label: "Image", name: "image", widget: "image", required: false }
-      - {label: "instagram tag", name: "instagram", widget: "string", required: true }
+      - {label: "instagram tag", name: "instagram", widget: "string", required: false }
       - {label: "Summary", name: "summary", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Prices"
