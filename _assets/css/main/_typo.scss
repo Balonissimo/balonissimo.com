@@ -13,6 +13,16 @@ h3, h4 {
 }
 
 
+p a {
+  border-bottom: 1px solid $clr-medium-gray;
+  padding-bottom: 3px;
+
+  &:hover {
+    border-color: $clr-main;
+  }
+}
+
+
 blockquote {
   color: shade($clr-text, 20%);
   border-left: 4px solid $clr-border-focus;
@@ -27,6 +37,7 @@ blockquote {
 
 
 // buttons
+button,
 .button {
   text-transform: uppercase;
   font-weight: 300;
