@@ -105,6 +105,9 @@ em {
 }
 
 
+.preview-page {
+  text-align: left;
+}
 
 .preview-teaser {
   max-width: 400px;
