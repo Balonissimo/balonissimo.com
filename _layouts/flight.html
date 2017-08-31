@@ -2,35 +2,55 @@
 layout: default
 ---
 
+{% capture contents %}
+
+{{ content }}
+
+{% if page.prices %}
+<dl class="prices">
+{% for price in page.prices %}
+    <dt>{{ price.label }}</dt>
+    <dd>
+      {{ price.price }}
+      {% if price.description %}
+      <span>{{ price.description }}</span>
+      {% endif %}
+    </dd>
+{% endfor %}
+</dl>
+{% endif %}
+
+{% if page.instagram %}
+<section class="gallery">
+
+  <h2 class="hidden">
+    <span>{{ site.data.translations[page.lang].text.pictures }}</span>
+  </h2>
+
+  <div id="instafeed">
+    <noscript>{{ site.data.translations[page.lang].text.visit-instagram }}</noscript>
+  </div>
+
+</section>
+{% endif%}
+
+{% if page.buttons %}
+<footer>
+  {% include buttons.html items=page.buttons %}
+</footer>
+{% endif %}
+
+{% endcapture %}
+
 <article>
 
   <h2><span>{{ page.title }}</span></h2>
 
   {% if page.sidebar %}
-    <div class="content">{{ content }}</div>
+    <div class="content">{{ contents }}</div>
     <div class="sidebar">{% include sidebar.html items=page.sidebar %}</div>
   {% else %}
-  {{ content }}
-  {% endif %}
-
-  {% if page.prices %}
-  <dl class="prices">
-  {% for price in page.prices %}
-      <dt>{{ price.label }}</dt>
-      <dd>
-        {{ price.price }}
-        {% if price.description %}
-        <span>{{ price.description }}</span>
-        {% endif %}
-      </dd>
-  {% endfor %}
-  </dl>
-  {% endif %}
-
-  {% if page.buttons %}
-  <footer>
-    {% include buttons.html items=page.buttons %}
-  </footer>
+  {{ contents }}
   {% endif %}
 
 </article>
@@ -38,3 +58,23 @@ layout: default
 {% include_cached footer.html lang=page.lang %}
 
 {% js js/default async:true %}
+
+{% if page.instagram %}
+{% js js/gallery %}
+
+<script>
+  var feed = new Instafeed({
+    get: 'tagged',
+    tagName: '{{ page.instagram }}',
+    sortBy: 'most-recent',
+    clientId: "{{ site.instagram.clientId }}",
+    accessToken: "{{ site.instagram.accessToken }}",
+    template: {% raw %}'<figure><a href="{{model.images.standard_resolution.url}}" data-caption="{{caption}} &hearts; {{likes}}"><img class="lazyload" src="{% endraw %}{{ placeholder }}{% raw %}" data-src="{{model.images.low_resolution.url}}" alt="Picture" width="280" height="280"/></a></figure>', {% endraw %}
+    after: function() {
+      baguetteBox.run('#instafeed');
+    },
+  });
+  feed.run();
+</script>
+
+{% endif %}
