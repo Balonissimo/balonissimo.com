@@ -86,3 +86,12 @@ blockquote {
   font-style: italic;
   margin: 1em;
 }
+
+p a {
+  border-bottom: 1px solid #999;
+  padding-bottom: 3px;
+}
+
+p a:hover {
+  border-bottom-color: 1px solid #eeb200;
+}
