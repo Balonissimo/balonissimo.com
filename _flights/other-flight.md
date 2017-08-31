@@ -6,7 +6,7 @@ instagram: evorafromabove
 order: 6
 title: Other flight
 permalink: /en/flights-and-prices/other-flight
-summary: Fly in your own city or region.
+summary: Fly in your own city or region!
 prices:
   - description: price description
     label: Default price
@@ -23,3 +23,4 @@ published: true
 > Fly in your own city or region!
 
 If you want to fly in your own city or region, get in contact. Depending on the geographical and aeronautical conditions we will find a sollution to please your wishes. Note that not all regions in **Portugal** are suitable to do a safe flight of one hour.
+
