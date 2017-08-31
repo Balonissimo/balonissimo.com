@@ -18,15 +18,12 @@ sidebar:
   - description: More info about the flight.
     title: Flight description
     image: /media/landing.jpg
-  - description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper orci
-      et lacus ullamcorper, a convallis orci semper. 
-    title: More info
 published: true
 ---
 > Fly in your own city or region!
 
 If you want to fly in your own city or region, get in contact. Depending on the geographical and aeronautical conditions we will find a sollution to please your wishes. Note that not all regions in **Portugal** are suitable to do a safe flight of one hour.
+
 
 
 
