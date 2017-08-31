@@ -77,21 +77,3 @@ select {
 [data-react-toolbox="avatar"] {
   display: none;
 }
-
-blockquote {
-  color: shade(#1c1d1e,20%);
-  border-left: 4px solid #eeb200;
-  padding: .1em 0 .1em 1.5em;
-  font-size: 1.125em;
-  font-style: italic;
-  margin: 1em;
-}
-
-p a {
-  border-bottom: 1px solid #999;
-  padding-bottom: 3px;
-}
-
-p a:hover {
-  border-bottom-color: 1px solid #eeb200;
-}
