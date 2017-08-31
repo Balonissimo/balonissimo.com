@@ -113,7 +113,10 @@ body.frontpage > header {
 
 }
 
-
+body.frontpage .teasers > footer .button {
+  background-color: $clr-spot;
+  color: white;
+}
 
 // NAVIGATION
 body > nav {
