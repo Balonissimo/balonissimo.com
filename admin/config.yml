@@ -58,11 +58,26 @@ collections:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Permalink", name: "permalink", widget: "string" }
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
-      - {label: "Price", name: "price", widget: "string" }
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "instagram tag", name: "instagram", widget: "string", required: true }
       - {label: "Summary", name: "summary", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Prices"
+        name: prices
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Label", name: "label", widget: "string"}
+          - {label: "Price", name: "price", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+      - label: "Sidebar"
+        name: sidebar
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Description", name: "description", widget: "text"}
       - {label: "Published", name: "published", widget: "boolean", default: true}
 
   - name: "teasers"
