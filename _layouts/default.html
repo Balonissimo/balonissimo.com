@@ -7,7 +7,7 @@ layout: compress
 
   {% include head.html %}
 
-  <body class="{{ page.layout }}">
+  <body{% if page.layout == 'frontpage' %} class="frontpage"{% endif %}>
 
     {% include_cached svg/icons.svg %}
 

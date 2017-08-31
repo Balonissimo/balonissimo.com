@@ -92,18 +92,6 @@ blockquote {
   margin: $sp-small 0;
 }
 
-blockquote {
-  color: shade($clr-text, 20%);
-  border-left: 4px solid $clr-border-focus;
-  padding: .1em 0 .1em $sp-large;
-  font-size: em($fs-base + 2);
-  font-style: italic;
-
-  p {
-    margin: em($sp-base / 2) 0;
-  }
-}
-
 sup {
   position: relative;
   top: -.5em;
@@ -113,7 +101,7 @@ sup {
 }
 
 strong {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 figure {

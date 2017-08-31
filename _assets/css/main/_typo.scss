@@ -12,23 +12,40 @@ h3, h4 {
   font-weight: 600;
 }
 
+
+blockquote {
+  color: shade($clr-text, 20%);
+  border-left: 4px solid $clr-border-focus;
+  padding: .1em 0 .1em $sp-large;
+  font-size: em($fs-base + 2);
+  font-style: italic;
+
+  p {
+    margin: em($sp-base / 2) 0;
+  }
+}
+
+
 // buttons
 .button {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 1.2em;
   letter-spacing: .1em;
+  margin-right: .6em;
 
   &:hover {
     opacity: .95;
   }
 
+  @media screen and (max-width: $bp-small) {
+    display: block;
+    margin-right: 0;
+    text-align: left;
+  }
+
   .teasers & {
     background-color: $clr-spot;
     color: white;
-  }
-
-  & + .button {
-    margin-left: .6em;
   }
 }

@@ -41,7 +41,7 @@
 
 @mixin set_grid($columns, $gutter) {
   width: calc(#{100% / $columns} - #{em(($gutter * ($columns - 1)) / $columns)});
-  &:not(:nth-of-type(#{$columns}n)) {
+  &:not(:nth-of-type(#{$columns}n)):not(:last-of-type) {
     margin-right: em($gutter);
   }
 }
