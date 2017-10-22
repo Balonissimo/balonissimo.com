@@ -4,6 +4,7 @@ permalink: /en/contact
 lang: en
 description: Contact us
 image: "/media/banners/evora-01.jpg"
+success: /en/success
 fields:
 - name: name
   label: Full name

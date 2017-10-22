@@ -5,7 +5,7 @@ layout: default
 <section class="form">
   <h2><span>{{ page.title }}</span></h2>
   {{ content }}
-  {% include form.html fields=page.fields %}
+  {% include form.html name=page.title success=page.success fields=page.fields %}
 </section>
 
 {% include_cached footer.html lang=page.lang %}

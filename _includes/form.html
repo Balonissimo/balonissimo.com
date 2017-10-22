@@ -1,6 +1,5 @@
-<form action="https://formspree.io/info@balonissimo.com" method="POST">
-  <input type="hidden" name="_next" value="{{ site.url }}{{ page.url }}" />
-  <input type="text" name="_gotcha" style="display:none" />
+<form action="{{ include.success }}" name="{{ include.name }}" netlify netlify-honeypot="gotcha">
+  <input type="text" name="gotcha" style="display:none" />
 
   {% for field in include.fields %}
   <div{% if field.width %} style="width: {{ field.width }}"{% endif %}>

@@ -4,6 +4,7 @@ permalink: /en/book-now
 lang: en
 description: Book now
 image: "/media/banners/evora-01.jpg"
+success: /en/success
 fields:
   - name: flight
     label: Choose your flight
