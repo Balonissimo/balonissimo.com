@@ -1,10 +1,16 @@
 ---
-title: Exclusive for two
+description: Exclusive balloon flight for two
 permalink: /en/flights-and-prices/exclusive-for-two
 lang: en
 order: 3
-description: Exclusive balloon flight for two
-image: "/media/banners/evora-01.jpg"
+title: Exclusive for two
+image: /media/banners/evora-01.jpg
+summary: >-
+  This flight is even more exclusive, only the two of you and the pilot. We take
+  off at sunrise and fly one hour over the city, the fields and the beautifull
+  Alentejo.
+published: true
 ---
 
 This flight is even more exclusive, only the two of you and the pilot. We take off at sunrise and fly one hour over the city, the fields and the beautifull Alentejo.
+
