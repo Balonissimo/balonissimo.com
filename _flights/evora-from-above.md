@@ -17,7 +17,6 @@ sidebar:
   - image: /media/evora-from-above.jpg
 published: true
 ---
+*We meet at the take off place a half an hour before sunrise. At **sunrise** we are airborn and enjoy the city awakening and the unforgetable viewsof the **beautifull** **Alentejo**.*
 
-We meet at the take off place a half an hour before sunrise. At sunrise we are airborn and enjoy the city awakening and the unforgetable viewsof the beautifull Alentejo. After about 50 minutes we look out for a landing spot. The chase vehicle comes nearby, we pack up the balloon and have a drink to celebrate the adventure. We bring you back to the city or take off field.
-
-
+After about 50 minutes we look out for a landing spot. The chase vehicle comes nearby, we pack up the balloon and have a drink to celebrate the adventure. We bring you back to the city or take off field.
