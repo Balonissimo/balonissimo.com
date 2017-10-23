@@ -61,7 +61,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "instagram tag", name: "instagram", widget: "string", required: false }
       - {label: "Summary", name: "summary", widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false }
       - label: "Prices"
         name: prices
         required: false
@@ -69,7 +69,7 @@ collections:
         fields:
           - {label: "Label", name: "label", widget: "string"}
           - {label: "Price", name: "price", widget: "string"}
-          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", required: false }
       - label: "Sidebar"
         name: sidebar
         required: false
