@@ -2,6 +2,7 @@
 title: Other flight
 permalink: /en/flights-and-prices/other-flight
 lang: en
+order: '6'
 image: /media/landing.jpg
 instagram: ''
 summary: >-
