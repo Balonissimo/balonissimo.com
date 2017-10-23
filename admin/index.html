@@ -161,20 +161,6 @@
     CMS.registerPreviewTemplate("forms", FormsPreview);
     CMS.registerPreviewTemplate("testimonials", TestimonialsPreview);
 
-    CMS.registerEditorComponent({
-      id: "break",
-      label: "Line break",
-      pattern: '^<br/>',
-      toBlock: function() {
-        return '<br/>';
-      },
-      toPreview: function() {
-        return (
-          '<br/>'
-        );
-      }
-    });
-
     
   </script>
 
