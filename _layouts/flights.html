@@ -35,12 +35,12 @@ layout: default
       {% include_cached image.html file=flight.image style='teaser' alt=flight.title %}
     </figure>
     <h3>{{ flight.title }}</h3>
-    {{ flight.summary }}
-
+    {{ flight.summary | markdownify }}
+/*
     <footer>
       <a class="read-more" href="{{ flight.url }}">{{ site.data.translations[page.lang].text.read-more }}</a>
     </footer>
-
+*/
   </article>
 
   {% endfor %}
