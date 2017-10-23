@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% assign stripped = content | strip_newlines %}
-{% if stripped != "" or page.buttons %}
 <article class="intro">
 
   <h2><span>{{ page.title }}</span></h2>
@@ -17,8 +15,6 @@ layout: default
   {% endif %}
 
 </article>
-{% endif %}
-
 
 <section class="galleries">
 
