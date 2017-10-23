@@ -3,7 +3,7 @@ title: Ask us a question
 permalink: /en/contact
 lang: en
 description: Contact us
-image: "/media/banners/evora-01.jpg"
+image:
 success: /en/success
 fields:
 - name: name
