@@ -5,5 +5,4 @@ layout: media
 lang: en
 published: true
 ---
-Check out our photos!
 
