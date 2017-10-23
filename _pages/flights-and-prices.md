@@ -11,5 +11,4 @@ buttons:
     url: /en/book-now
 published: true
 ---
-We offer various locations and type of flights. From private- to group flights, or high-altitude to captive flights.  You can see a description below.
-
+_We offer various locations and type of flights. From private- to group flights, or high-altitude to captive flights. You can see a description below._
