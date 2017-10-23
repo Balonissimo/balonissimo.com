@@ -165,18 +165,10 @@
       id: "break",
       label: "Line break",
       pattern: '^<br/>',
-
-      fromBlock: function(match) {
-        return {
-          name: match[1]
-        };
-      },
-
-      toBlock: function(obj) {
+      toBlock: function() {
         return '<br/>';
       },
-
-      toPreview: function(obj) {
+      toPreview: function() {
         return (
           '<br/>'
         );
