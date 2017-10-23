@@ -65,15 +65,56 @@ select {
   background-color: lightgrey;
 }
 
-.cms__ListControl__addButtonText {
-  display: none;
-}
-
 .cms__ListControl__item .material-icons {
   opacity: .5;
   padding: 0 2px;
 }
 
+.cms__EntryListing__card p + p,
+.cms__ListControl__addButtonText,
+.cms__AppHeader__homeLink,
+.cms__AppHeader__homeLink + div,
 [data-react-toolbox="avatar"] {
   display: none;
+}
+
+
+[data-slate-editor="true"] {
+  padding: 0 18px !important;
+}
+
+.cms__index__shortcode {
+  margin: 16px 0;
+  border-radius: 8px;
+  border-width: 1px;
+  font-size: 14px;
+}
+
+.group,
+#buttons .cms__ListControl__objectControl,
+#items .cms__ListControl__objectControl {
+  display: flex;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.group > div,
+#buttons .cms__ListControl__objectControl > div,
+#items .cms__ListControl__objectControl > div {
+  width: 100%;
+  margin: 0 4px 8px;
+}
+
+
+.cms__ControlPane__control {
+  margin-top: 0;
+}
+
+.cms__ControlPane__label {
+  display: block;
+  color: #8b8b8b;
+  font-size: 14px;
+  text-transform: inherit;
+  font-weight: 400;
+  margin-bottom: 6px;
 }
