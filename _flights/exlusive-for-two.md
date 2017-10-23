@@ -2,6 +2,7 @@
 title: Exclusive for two
 permalink: /en/flights-and-prices/exclusive-for-two
 lang: en
+order: '1'
 image: /media/romantic.jpg
 summary: >-
   This flight is even more exclusive, only the two of you and the pilot. We take
