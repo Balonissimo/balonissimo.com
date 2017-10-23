@@ -10,7 +10,7 @@ layout: default
     <div class="content">{{ content }}</div>
     <div class="sidebar">{% include sidebar.html items=page.sidebar %}</div>
   {% else %}
-  {{ content }}
+  {{ content | replace: "\", "<br/>" }}
   {% endif %}
 
   {% if page.buttons %}
