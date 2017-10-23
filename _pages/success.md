@@ -1,9 +1,9 @@
 ---
-title: About us
-permalink: /en/about-us
+title: Success
+permalink: /en/success
 layout: page
 lang: en
-image: /media/banners/sunrise.jpg
+image: /media/sunrise.jpg
 published: true
 ---
 
