@@ -36,11 +36,11 @@ layout: default
     </figure>
     <h3>{{ flight.title }}</h3>
     {{ flight.summary | markdownify }}
-/*
-    <footer>
+
+    <footer class="hidden">
       <a class="read-more" href="{{ flight.url }}">{{ site.data.translations[page.lang].text.read-more }}</a>
     </footer>
-*/
+
   </article>
 
   {% endfor %}
