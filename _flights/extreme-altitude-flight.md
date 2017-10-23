@@ -10,5 +10,3 @@ summary: |-
 published: true
 ---
 
-We can go higher! For this flight we go up to 3 km.
-
