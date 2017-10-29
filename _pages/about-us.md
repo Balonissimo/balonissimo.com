@@ -8,7 +8,7 @@ buttons:
   - icon: facebook
     title: Follow us on facebook
     url: 'https://www.facebook.com/balonissimo'
-  - icon: intagram
+  - icon: instagram
     title: Watch us at Instagram
     url: 'https://www.instagram.com/balonissimo/'
 sidebar:
