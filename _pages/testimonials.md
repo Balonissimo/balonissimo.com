@@ -3,6 +3,7 @@ title: Share your Balonissimo experience!
 permalink: /en/testimonials
 layout: testimonials
 lang: en
+image: /media/balao-no-alantejo.jpg
 buttons:
   - icon: tripadvisor
     title: Add your own testimonial!
