@@ -3,7 +3,7 @@ title: About us
 permalink: /en/about-us
 layout: page
 lang: en
-image: /media/sunrise.jpg
+image: /media/inflation.jpg
 buttons:
   - icon: facebook
     title: Follow us on facebook
