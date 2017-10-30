@@ -3,7 +3,7 @@ title: Evora from above
 permalink: /en/flights-and-prices/evora-from-above
 lang: en
 order: '4'
-image: /media/evora-02.jpg
+image: /media/evora-de-cima.jpg
 instagram: ''
 summary: >-
   We meet at the take off place a half an hour before sunrise. At sunrise we are
