@@ -4,7 +4,7 @@ layout: default
 
 <section class="form">
   <h2><span>{{ page.title }}</span></h2>
-  {{ content }}
+  {{ content | replace: "\", "<br/>" }}
   {% include form.html name=page.title success=page.success fields=page.fields %}
 </section>
 
