@@ -3,7 +3,7 @@ title: Flights and prices
 permalink: /en/flights-and-prices/
 layout: flights
 lang: en
-image: /media/balloons-take-of.jpg
+image: /media/balloon-in-winter.jpg
 buttons:
   - title: Ask us a question
     url: /en/contact
