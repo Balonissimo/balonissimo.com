@@ -1,8 +1,7 @@
 ---
 title: Quality over quantity
 lang: en
-image: /media/teasers/landscape.jpg
-order: 1
+image: /media/ready_for_landing.JPG
 published: true
 ---
 
