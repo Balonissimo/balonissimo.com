@@ -1,5 +1,5 @@
 ---
-title: Other flights
+title: Other locations
 permalink: /en/flights-and-prices/other-flight
 lang: en
 order: '4'
