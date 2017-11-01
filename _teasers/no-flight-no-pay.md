@@ -1,8 +1,7 @@
 ---
 title: 'No flight, no pay!'
 lang: en
-image: /media/teasers/balloon.jpg
-order: 3
+image: /media/balloontop.JPG
 published: true
 ---
 
