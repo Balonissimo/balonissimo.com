@@ -3,7 +3,7 @@ title: About us
 permalink: /en/about-us
 layout: page
 lang: en
-image: /media/inflation.jpg
+image: /media/jipe-e-balao.jpg
 buttons:
   - icon: facebook
     title: Follow us on facebook
