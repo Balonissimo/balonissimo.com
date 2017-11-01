@@ -3,7 +3,7 @@ title: Extreme altitude flight
 permalink: /en/flights-and-prices/extreme-altitude-flight
 lang: en
 order: '2'
-image: /media/high-in-the-sky.jpg
+image: /media/barragem-dos-minutos.jpg
 summary: |-
   We can go higher! For this extreme altitude flight we go up to 3km!
 
