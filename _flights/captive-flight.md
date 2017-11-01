@@ -2,7 +2,7 @@
 title: Captive flight
 permalink: /en/flights-and-prices/captive-fight
 lang: en
-order: '3'
+order: '6'
 image: /media/night-glow.jpg
 summary: >-
   A captive flight means the balloon is anchored to the ground and we go up to
