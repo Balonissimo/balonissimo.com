@@ -11,7 +11,8 @@ links:
     title: About us
   - link: /en/testimonials
     title: Testimonials
-  - link: /en/contact
+  - description: info@balonissimo.com
+    link: /en/contact
     title: Contact
   - description: Frequently Asked Questions
     link: /en/faq
