@@ -3,7 +3,7 @@ title: Flights and prices
 permalink: /en/flights-and-prices/
 layout: flights
 lang: en
-image: /media/balao-no-alantejo.jpg
+image: /media/clouds.JPG
 buttons: []
 sidebar: []
 published: true
