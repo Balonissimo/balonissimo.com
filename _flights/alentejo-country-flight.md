@@ -6,7 +6,7 @@ order: '5'
 image: /media/evelin.jpg
 summary: >-
   The voucher is perfect as a present. It can be send by postal mail (national)
-  or email. It has a validity of 1 year and is not rfundable.
+  or email. It has a validity of 1 year and is not refundable.
 published: true
 ---
 
