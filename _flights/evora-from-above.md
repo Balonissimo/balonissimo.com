@@ -3,7 +3,7 @@ title: Evora from above
 permalink: /en/flights-and-prices/evora-from-above
 lang: en
 order: '1'
-image: /media/templo-diana.jpg
+image: /media/evora-muralha.jpg
 instagram: '#evorafromabove #balonissimo'
 summary: >-
   We meet at the take off place a half an hour before sunrise. At sunrise we are
