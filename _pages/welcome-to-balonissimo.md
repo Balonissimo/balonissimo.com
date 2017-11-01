@@ -10,4 +10,4 @@ _Come fly with us and experience **Evora from above**. _
 
 The best way to discover the aquaduct, the ancient wall, the cathedral and many churches in this historic city is in a hot air balloon. 
 
-_**Free PICK -UP service** included in any place in Evora. _
+_**Free PICK -UP service** included in any place in Evora._
