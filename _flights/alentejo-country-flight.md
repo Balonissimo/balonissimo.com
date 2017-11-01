@@ -10,9 +10,7 @@ summary: >-
   or email. It has a validity of 1 year and is not refundable.
 
 
-  140€ p.p.
-
-
+  € 140 p.p.
 
 
   ##
