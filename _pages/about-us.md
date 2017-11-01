@@ -3,7 +3,7 @@ title: About us
 permalink: /en/about-us
 layout: page
 lang: en
-image: /media/jipe-e-balao.jpg
+image: /media/alentejo-iverno.JPG
 buttons:
   - icon: facebook
     title: Follow us on facebook
