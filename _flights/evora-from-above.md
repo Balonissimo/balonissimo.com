@@ -4,7 +4,7 @@ permalink: /en/flights-and-prices/evora-from-above
 lang: en
 order: '1'
 image: /media/diana.JPG
-instagram: '#evorafromabove #balonissimo'
+instagram: evorafromabove balonissimo
 summary: >-
   We meet at the take off place a half an hour before sunrise. At sunrise we are
   airborn and enjoy the city awakening and the unforgetable viewsof the
