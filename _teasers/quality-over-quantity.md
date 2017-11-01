@@ -1,7 +1,7 @@
 ---
 title: Quality over quantity
 lang: en
-image: /media/ready_for_landing.JPG
+image: /media/quatro_px.JPG
 published: true
 ---
 
