@@ -4,7 +4,7 @@ permalink: /en/flights-and-prices/exclusive-for-two
 lang: en
 order: '2'
 image: /media/romantic.jpg
-instagram: '#balonissimo'
+instagram: balonissimo
 summary: >-
   This flight is even more exclusive, only the two of you and the pilot. We take
   off at sunrise and fly one hour over the city, the fields and the beautifull
