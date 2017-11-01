@@ -4,7 +4,7 @@ permalink: /en/flights-and-prices/other-flight
 lang: en
 order: '4'
 image: /media/elvas-forca.JPG
-instagram: '#balonissimo'
+instagram: balonissimo
 summary: >-
   If you want to fly in your own city or region, get in contact. Depending on
   the geographical and aeronautical conditions we will find a sollution to
