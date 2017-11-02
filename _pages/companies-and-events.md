@@ -9,7 +9,7 @@ sidebar:
       Balloon images are remembered for a long time. This is the tremendous
       advantage of using this media.
     title: 'What about your own balloon ? '
-    image: /media/globo-cautivo.jpg
+    image: /media/balonissimo-international.JPG
 published: true
 ---
 ## Events
