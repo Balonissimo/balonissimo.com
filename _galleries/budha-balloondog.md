@@ -1,6 +1,6 @@
 ---
 title: Budha Balloondog
-permalink: /budha
+permalink: en/media/budha
 lang: en
 image: /media/mlk.JPG
 instagram: '#budhaballoondog'
