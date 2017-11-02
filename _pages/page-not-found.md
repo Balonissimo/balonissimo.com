@@ -1,6 +1,6 @@
 ---
 title: Frequentely Asked Questions
-permalink: /faq
+permalink: /en/faq
 layout: page
 lang: en
 image: /media/balloon-at-sunset.jpg
