@@ -1,6 +1,6 @@
 ---
 title: Alentejo
-permalink: /en/media/alentejo
+permalink: /media/alentejo
 lang: en
 image: /media/galleries/alenteo.jpg
 instagram: alentejo
