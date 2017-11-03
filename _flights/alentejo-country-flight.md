@@ -11,9 +11,6 @@ summary: >-
 
 
   € 140 p.p.
-
-
-  ##
 published: true
 ---
 
