@@ -1,6 +1,6 @@
 ---
 title: Companies and Events
-permalink: /en/cae
+permalink: /cae
 layout: page
 lang: en
 image: /media/2kts.JPG
