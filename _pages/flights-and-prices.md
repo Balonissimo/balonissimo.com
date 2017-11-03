@@ -1,6 +1,6 @@
 ---
 title: Flights and prices
-permalink: /en/flights-and-prices/
+permalink: /flights-and-prices/
 layout: flights
 lang: en
 image: /media/clouds.JPG
