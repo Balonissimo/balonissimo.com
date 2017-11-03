@@ -1,6 +1,6 @@
 ---
 title: About us
-permalink: /en/about-us
+permalink: /about-us
 layout: page
 lang: en
 image: /media/alentejo-iverno.JPG
