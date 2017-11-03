@@ -1,59 +1,51 @@
 ---
 title: Book now!
-permalink: /en/book-now
+permalink: /book-now
 lang: en
-description: Book now
-image:
-success: /en/success
 fields:
-  - name: flight
-    label: Choose your flight
-    type: select
-    required: true
+  - label: Choose your flight
+    name: flight
     options:
-    - Evora from above
-    - Alentejo country flight
-    - Exclusive for two
-    - Extreme altitude flight
-    - Group flight
-    - Other flight – other location
-    - Captive flights
-  - name: date1
-    label: Preferencial date
-    type: date
-    width: 33.33%
+      - Evora from above
+      - Alentejo country flight
+      - Exclusive for two
+      - Extreme altitude flight
+      - Group flight
+      - Other flight – other location
+      - Captive flights
     required: true
-  - name: date2
-    label: Reserve date
-    type: date
-    width: 33.33%
+    type: select
+  - label: Preferencial date
+    name: date1
     required: true
-  - name: date3
-    label: Second reserve date
     type: date
-    width: 33.33%
-  - name: name
-    label: Full name
+  - label: Reserve date
+    name: date2
+    required: true
+    type: date
+  - label: Second reserve date
+    name: date3
+    type: date
+  - label: Full name
+    name: name
+    required: true
     type: text
-    width: 50%
+  - label: Email
+    name: email
     required: true
-  - name: email
-    label: Email
     type: email
-    width: 50%
-    required: true
-  - name: address
-    label: Adress
+  - label: Adress
+    name: address
     type: text
-    width: 50%
-  - name: phone
-    label: Phone
+  - label: Phone
+    name: phone
     type: text
-    width: 50%
-  - name: message
-    label: Remarques/questions
+  - label: Remarques/questions
+    name: message
     type: textarea
-  - name: submit
-    label: Book now!
+  - label: Book now!
+    name: submit
     type: submit
+published: true
 ---
+
