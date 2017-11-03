@@ -1,6 +1,6 @@
 ---
 title: Captive flight
-permalink: /en/flights-and-prices/captive-fight
+permalink: /flights-and-prices/captive-fight
 lang: en
 order: '6'
 image: /media/night-glow.jpg
