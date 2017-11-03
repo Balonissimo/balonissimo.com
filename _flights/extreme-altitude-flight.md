@@ -1,6 +1,6 @@
 ---
 title: Extreme altitude flight
-permalink: /en/flights-and-prices/extreme-altitude-flight
+permalink: /flights-and-prices/extreme-altitude-flight
 lang: en
 order: '3'
 image: /media/barragem-dos-minutos.jpg
