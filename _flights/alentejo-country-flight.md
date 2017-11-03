@@ -1,6 +1,6 @@
 ---
 title: Vouchers
-permalink: /en/flights-and-prices/alentejo-country-flight
+permalink: /flights-and-prices/alentejo-country-flight
 lang: en
 order: '5'
 image: /media/evelin.jpg
