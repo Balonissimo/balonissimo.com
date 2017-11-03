@@ -1,6 +1,6 @@
 ---
 title: Other locations
-permalink: /en/flights-and-prices/other-flight
+permalink: /flights-and-prices/other-flight
 lang: en
 order: '4'
 image: /media/elvas-forca.JPG
