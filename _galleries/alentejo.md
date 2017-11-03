@@ -2,7 +2,7 @@
 title: Alentejo
 permalink: /media/alentejo
 lang: en
-image: /media/galleries/alenteo.jpg
+image: /media/balloon-in-winter.jpg
 instagram: alentejo
 published: true
 ---
