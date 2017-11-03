@@ -1,6 +1,6 @@
 ---
 title: Exclusive for two
-permalink: /en/flights-and-prices/exclusive-for-two
+permalink: /flights-and-prices/exclusive-for-two
 lang: en
 order: '2'
 image: /media/romantic.jpg
