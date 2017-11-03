@@ -1,6 +1,6 @@
 ---
 title: About Baloníssimo
-permalink: /en/about-balloons
+permalink: /about-balloons
 layout: page
 lang: en
 image: /media/balloonteam.JPG
