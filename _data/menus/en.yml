@@ -1,25 +1,23 @@
 title: Navigation
 links:
   - description: Hot air balloon flights in Evora and Alentejo
-    link: /en/
+    link: ''
     title: Home
-  - link: /en/flights-and-prices/
+  - link: /flights-and-prices/
     title: Flights and prices
-  - link: /en/media/
+  - link: /media/
     title: Media
-  - link: /en/about-us
+  - link: /about-us
     title: About us
-  - link: /en/testimonials
-    title: Testimonials
   - description: info@balonissimo.com
-    link: /en/contact
+    link: /contact
     title: Contact
   - description: Frequently Asked Questions
-    link: /en/faq
+    link: /faq
     title: FAQ
   - description: >-
       You believe in the force of balloons and want to work with us ? Here some
       more info on captive flights for events or even your own balloon. Don't
       hesitate to contact us. 
-    link: /en/cae
+    link: /cae
     title: Companies and Events
