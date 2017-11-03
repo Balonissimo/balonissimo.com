@@ -1,6 +1,6 @@
 ---
 title: Bem vindo ao Balonissimo.com
-permalink: /
+permalink: /pt
 layout: frontpage
 lang: pt
 image: /media/banners/evora-01.jpg
