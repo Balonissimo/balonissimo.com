@@ -1,6 +1,6 @@
 ---
 title: Media
-permalink: /en/media/
+permalink: /media/
 layout: media
 lang: en
 image: /media/fotographer.JPG
