@@ -4,6 +4,14 @@ permalink: /faq
 layout: page
 lang: en
 image: /media/balloon-at-sunset.jpg
+sidebar:
+  - description: >-
+      In general , no.  That's why we have groundcrew and the so called
+      Chase-Vehicle. After landing, somewhere in the Alentejo?  We bring you
+      back to the city, the take off field or your hotel in our BJ40 Classic
+      Landcruiser. All part of the Baloníssimo-Experience !   
+    title: 'Do we land were we took off ? '
+    image: /media/BJ40.jpg
 published: true
 ---
 ### What if the weather conditions are bad?
