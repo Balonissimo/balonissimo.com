@@ -88,6 +88,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
+      - {label: "Order", name: "order", widget: "number"}
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Published", name: "published", widget: "boolean", default: true}
@@ -125,6 +126,14 @@ collections:
           - {label: "type", name: type, widget: string}
           - {label: "Required", name: "required", widget: "boolean", default: false}
           - {label: "Options", name: options, widget: "list"}
+      - label: "Sidebar"
+        name: sidebar
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Description", name: "description", widget: "text"}
       - {label: "Published", name: "published", widget: "boolean", default: true}
 
   - name: "menus"

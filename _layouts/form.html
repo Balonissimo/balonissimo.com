@@ -2,11 +2,34 @@
 layout: default
 ---
 
+{% capture form %}
 <section class="form">
   <h2><span>{{ page.title }}</span></h2>
-  {{ content | replace: "\", "<br/>" }}
   {% include form.html name=page.title success=page.success fields=page.fields %}
 </section>
+{% endcapture %}
+
+
+<article>
+  <h2 class="hidden"><span>{{ page.title }}</span></h2>
+  {% if page.sidebar %}
+    <div class="content">
+      {{ content | replace: "\", "<br/>" }}
+      {{ form }}
+    </div>
+    <div class="sidebar">{% include sidebar.html items=page.sidebar %}</div>
+  {% else %}
+    {{ content | replace: "\", "<br/>" }}
+    {{ form }}
+  {% endif %}
+
+  {% if page.buttons %}
+  <footer>
+    {% include buttons.html items=page.buttons %}
+  </footer>
+  {% endif %}
+
+</article>
 
 {% include_cached footer.html lang=page.lang %}
 

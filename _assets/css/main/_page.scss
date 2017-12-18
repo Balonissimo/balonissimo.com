@@ -299,7 +299,7 @@ body > nav {
       a {
         text-shadow: none;
         color: $clr-text;
-
+        line-height: em(56);
         &:hover,
         &.active {
           color: mix($clr-text, $clr-main, 60);
@@ -615,20 +615,30 @@ noscript + img {
   }
 }
 
+article > .content,
+article > .sidebar {
+  display: block;
+}
 
 article > .content,
 article > .sidebar {
-  @media screen and (min-width: $bp-small) {
+  @media screen and (min-width: $bp-medium) {
     display: inline-block;
     vertical-align: top;
   }
 }
 
-article > .content {
-  margin: -1em 0 3em;
-}
+
 
 article > .sidebar figure {
+
+  h3, p {
+    margin: .5em 0;
+  }
+
+  strong {
+    font-size: 1.2em;
+  }
 
   img {
     width: 100%;
@@ -675,4 +685,9 @@ article > .sidebar figure {
 
 .teasers .button svg {
   fill: white;
+}
+
+
+.lang-switcher {
+  display: none !important;
 }

@@ -28,7 +28,3 @@ For [booking](/en/book-now) and info, you will probably talk or mail with **Isis
 To set up the balloon, get us airborn and back after landing, we can count on **Francisco**, the chase has no more secrets for him. He knows the region follows the balloon by road or even when there is no road at all, he finds us!
 
 One other important member for ground assistance is **Budha**, he loves to help and play, entertain us and run around… just for some food, water and a lot of love and attention..
-
-
-
-

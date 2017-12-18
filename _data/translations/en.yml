@@ -12,12 +12,12 @@ text:
 buttons:
   frontpage-teasers:
     - title: Flights and Prices
-      url: /en/flights-and-prices/
-    - title: Book now!
-      url: /en/book-now
+      url: /flights-and-prices/
+    - title: Ask us a question!
+      url: /contact
   frontpage-pictures:
     - title: More pictures
-      url: /en/media/
+      url: /media/
   frontpage-testimonials:
     - title: More testimonials
-      url: /en/testimonials
+      url: /testimonials

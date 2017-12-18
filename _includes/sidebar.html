@@ -2,7 +2,7 @@
   <figure>
     {% include_cached image.html file=item.image style='sidebar' alt=item.title %}
     {% if item.description %}
-    <figcaption>{{ item.description }}</figcaption>
+    <figcaption>{{ item.description | replace: "\", "<br/>" | markdownify }}</figcaption>
     {% endif %}
   </figure>
 {% endfor %}

@@ -21,10 +21,13 @@ fields:
   - label: Send question
     name: submit
     type: submit
+sidebar:
+  - description: >-
+      ### Talk to the pilot
+
+      **(00351) 935 646 124**\
+       _(also Whatsapp)_
+    title: Talk to the pilot
+    image: /media/balloonteam.JPG
 published: true
 ---
-Talk to the pilot:
-
-**(00351) 935 646 124**
-
-_(also Whatsapp)_
