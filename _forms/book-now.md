@@ -46,6 +46,6 @@ fields:
   - label: Book now!
     name: submit
     type: submit
-published: true
+published: false
 ---
 
