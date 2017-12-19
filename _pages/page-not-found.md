@@ -3,7 +3,7 @@ title: Page Not found
 permalink: /404
 layout: page
 lang: en
-image: /media/BJ40.jpg
+image: /media/evora-01.jpg
 buttons:
   - icon: balloon
     title: Go to homepage
