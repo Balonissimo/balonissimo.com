@@ -1,23 +1,22 @@
 text:
-  teasers-frontpage: Nossos ativos
+  flights: 'Nossos Voos '
+  galleries: Gallerias
+  latest-pictures: Imagens mais recentes
+  latest-testimonials: Imagens mais recentes
+  pictures: Imagens
   read-more: Leia mais
-  latest-pictures: Latest pictures
-  latest-testimonials: Latest testimonials
-  pictures: Pictures
-  visit-instagram: Visit our Instagram page...
-  galleries: Galleries
+  teasers-frontpage: Nossos ativos
   testimonials: Testimonials
-  flights: Our flights
-
+  visit-instagram: Visita a nossa pagina no Instagram...
 buttons:
-  frontpage-teasers:
-    - title: Voos e Preços
-      url: /pt/voos-e-precos
-    - title: Livro agora!
-      url: /pt/livro-agora
   frontpage-pictures:
     - title: Mais fotos
       url: /pt/media
+  frontpage-teasers:
+    - title: Voos e Preços
+      url: /pt/voos-e-precos
+    - title: Reserva ja!
+      url: '/pt/Reserva ja '
   frontpage-testimonials:
     - title: Mais depoimentos
       url: /pt/mais-depoimentos
