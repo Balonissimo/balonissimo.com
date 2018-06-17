@@ -1,7 +1,7 @@
 ---
 title: Exclusive for two
 permalink: /flights-and-prices/exclusive-for-two
-lang: pt
+lang: en
 order: '2'
 image: /media/exclusive-for-2.jpg
 instagram: balonissimo
