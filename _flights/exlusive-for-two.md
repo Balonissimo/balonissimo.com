@@ -1,9 +1,9 @@
 ---
 title: Exclusive for two
 permalink: /flights-and-prices/exclusive-for-two
-lang: en
+lang: pt
 order: '2'
-image: /media/romantic.jpg
+image: /media/exclusive-for-2.jpg
 instagram: balonissimo
 summary: >-
   This flight is even more exclusive, only the two of you and the pilot. We take
