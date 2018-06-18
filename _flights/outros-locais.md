@@ -1,6 +1,6 @@
 ---
 title: Outros locais
-permalink: vooseprecos/outroslocais/
+permalink: /pt/vooseprecos/outroslocais/
 lang: pt
 order: '5'
 image: /media/elvas-forca.JPG
