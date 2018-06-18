@@ -1,6 +1,6 @@
 ---
 title: Sobre nós
-permalink: /sobrenos
+permalink: /pt/sobrenos
 layout: page
 lang: pt
 image: /media/balloonteam.JPG
