@@ -1,6 +1,6 @@
 ---
 title: Voucher
-permalink: /vooseprecos/voucher
+permalink: /pt/vooseprecos/voucher
 lang: pt
 order: '5'
 image: /media/evelin.jpg
