@@ -1,6 +1,6 @@
 ---
 title: Evora de cima
-permalink: vooseprecos/evoradecima
+permalink: /pt/vooseprecos/evoradecima
 lang: pt
 order: '1'
 image: /media/evora-de-cima.jpg
