@@ -1,7 +1,7 @@
 ---
-title: 'Reserve hoje, voe amanhã'
+title: Reserve hoje, voe amanhã
 lang: pt
-order: '3'
+order: 3
 image: /media/aquaduto.jpg
 published: true
 ---
