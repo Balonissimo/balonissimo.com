@@ -1,7 +1,7 @@
 ---
 title: Qualidade sob quantidade
 lang: pt
-order: '2'
+order: 2
 image: /media/2kts.JPG
 published: true
 ---
