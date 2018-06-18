@@ -1,6 +1,6 @@
 ---
 title: Voo de altitude extrema
-permalink: /vooseprecos/voodealtitude
+permalink: /pt/vooseprecos/voodealtitude
 lang: pt
 order: '4'
 image: /media/clouds.JPG
