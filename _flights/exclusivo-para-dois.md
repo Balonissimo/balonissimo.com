@@ -1,6 +1,6 @@
 ---
 title: Exclusivo para dois
-permalink: /vooseprecos/exclusivopara2
+permalink: /pt/vooseprecos/exclusivopara2
 lang: pt
 order: '2'
 image: /media/exclusive-for-2.jpg
