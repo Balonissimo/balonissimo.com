@@ -1,6 +1,6 @@
 ---
 title: Voo cativo
-permalink: /vooseprecos/voocativo
+permalink: /pt/vooseprecos/voocativo
 lang: pt
 order: '6'
 image: /media/globo-cautivo.jpg
