@@ -1,7 +1,7 @@
 ---
-title: 'Não vôa, não paga!'
+title: Não vôa, não paga!
 lang: pt
-order: '1'
+order: 1
 image: /media/alentejo-iverno.JPG
 published: true
 ---
