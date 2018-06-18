@@ -4,7 +4,7 @@ permalink: /pt
 layout: frontpage
 lang: pt
 image: /media/banners/evora-01.jpg
-published: false
+published: true
 ---
 Venha voar conosco e aproveitar Evora de cima.
 
