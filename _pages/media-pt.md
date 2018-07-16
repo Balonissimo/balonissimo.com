@@ -1,19 +1,19 @@
 ---
-title: Media
+title: Media PT
 permalink: /pt/media/
 layout: media
 lang: pt
 image: /media/fotographer.JPG
+buttons:
+  - icon: instagram
+    title: Watch us at Instagram
+    url: 'https://www.instagram.com/balonissimo/'
 sidebar:
   - description: >-
       Here you can find some spectacular pictures from Baloníssimo outside of
       Portugal.  We have been flying at events in several continents...
     title: Baloníssimo in the world
     image: /media/balonissimo-international.JPG
-buttons:
-  - icon: instagram
-    title: Watch us at Instagram
-    url: 'https://www.instagram.com/balonissimo/'
 published: true
 ---
 
