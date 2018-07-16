@@ -1,6 +1,6 @@
 ---
 title: Ask us a question PT
-permalink: /pt/contact
+permalink: /pt/contato
 lang: pt
 fields:
   - label: Full name
