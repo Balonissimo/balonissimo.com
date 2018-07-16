@@ -1,6 +1,6 @@
 ---
 title: Share your Balonissimo experience! PT
-permalink: /pt/testimonials
+permalink: /pt/testimonios
 layout: testimonials
 lang: pt
 image: /media/brinde.JPG
