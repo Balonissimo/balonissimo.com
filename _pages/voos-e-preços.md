@@ -1,7 +1,7 @@
 ---
 title: 'Voos e preços '
 permalink: /pt/vooseprecos
-layout: page
+layout: flights
 lang: pt
 image: /media/balloon-in-winter.jpg
 published: true
