@@ -1,5 +1,5 @@
 ---
-title: Frequentely Asked Questions
+title: Frequentely Asked Questions PT
 permalink: /pt/faq
 layout: page
 lang: pt
