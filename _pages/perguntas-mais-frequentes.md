@@ -5,7 +5,10 @@ layout: page
 lang: pt
 image: /media/ready_for_landing.JPG
 sidebar:
-  - title: 'Nós aterramos onde descolamos ? '
+  - description: >-
+      Em geral , não aterramos no mesmo local de descolagem. Nos voamos com o
+      vento,
+    title: 'Nós aterramos onde descolamos ? '
     image: /media/BJ40.jpg
 published: true
 ---
