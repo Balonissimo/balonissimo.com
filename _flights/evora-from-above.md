@@ -1,5 +1,5 @@
 ---
-title: Evora from above
+title: Evora from above - €150 pp
 permalink: /flights-and-prices/evora-from-above
 lang: en
 order: '1'
