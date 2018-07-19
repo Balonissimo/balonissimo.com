@@ -6,6 +6,9 @@ lang: pt
 image: /media/ready_for_landing.JPG
 sidebar:
   - description: >-
+      Nós aterramos onde descolamos ? 
+
+
       No geral, não. Nós voamos com o vento. É por isso que temos uma equipa no
       chão que irá seguir o balão de carro. Depois do pouso, nós trazemos todos
       de volta para a cidade, ponto de encontro ou hotel no nosso Clássico
@@ -14,11 +17,9 @@ sidebar:
     image: /media/BJ40.jpg
 published: true
 ---
-### E se as conidiçoes meteorológicas estão ruíns ? 
+### E se as condiçoes meteorológicas estão ruíns ?
 
 Se o tempo está ruim e você não está disponível para outros dia, você irá receber reembolso de 100%.
-
-
 
 **Quem pode voar?**
 
@@ -30,25 +31,17 @@ Se o tempo está ruim e você não está disponível para outros dia, você irá
 
 – Pessoas com uma condição médica séria ou com uma cirurgia recente devem confirmar com o seu médico.
 
-
-
 **Por quê o voo é tão cedo?**
 
 Os voos acontecem de manhã cedo para evitar instabilidade do vento. No inverno é possivel voar também no final da tarde.
-
-
 
 **Eu ficarei com frio?**
 
 Não, a temperatura durante o voo é um pouco superior a temperatura ambiente.
 
-
-
 **O que eu devo vestir?**
 
 Roupas casuais apropriadas para a épca do ano. Sapatos devem ser fechados.
-
-
 
 **Eu tenho vertigem, eu ficarei com medo de voar ou me sentirei mal durante o voo?**
 
