@@ -6,8 +6,10 @@ lang: pt
 image: /media/ready_for_landing.JPG
 sidebar:
   - description: >-
-      Em geral , não aterramos no mesmo local de descolagem. Nos voamos com o
-      vento,
+      No geral, não. Nós voamos com o vento. É por isso que temos uma equipa no
+      chão que irá seguir o balão de carro. Depois do pouso, nós trazemos todos
+      de volta para a cidade, ponto de encontro ou hotel no nosso Clássico
+      Landcruiser BJ40. Tudo faz parte da experiência Baloníssimo.
     title: 'Nós aterramos onde descolamos ? '
     image: /media/BJ40.jpg
 published: true
