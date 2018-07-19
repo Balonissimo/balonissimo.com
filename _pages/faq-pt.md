@@ -6,39 +6,52 @@ lang: pt
 image: /media/balloon-at-sunset.jpg
 sidebar:
   - description: >-
-      Do we land where we took off ?
 
 
-      In general , no.  We go with the wind .  That's why we have groundcrew and
-      the so called Chase-Vehicle. After landing, somewhere in the Alentejo?  We
-      bring you back to the city, the take off field or your hotel in our BJ40
-      Classic Landcruiser. All part of the Baloníssimo-Experience !   
-    title: 'Do we land where we took off ? '
+       
+      Em geral, não. Nós voamos com o vento. É por isso que temos o resgate,
+      pessoas do nosso time que vão seguir o balão por terra com o nosso carro.
+      Depois do pouso, nós trazemos todos os passageiro de volta para o hotel no
+      nosso Clássico Landcruiser BJ40. Tudo faz parte da 'experiência
+      Baloníssimo' !
+    title: 'Nós aterramos onde descolamos ? '
     image: /media/BJ40.jpg
 published: true
 ---
-### What if the weather conditions are bad?
+### E se as condiçoes meteorológicas estão ruíns ?
 
-If the weather is bad and you are unable to fly on your prefered day, you will receive a 100% refund.
+Se o tempo está ruim e você não está disponível para outros dia, você irá receber reembolso de 100%.
 
-### Who can fly?
+### Quem pode voar ? 
 
-A balloon flight is suitable for most people. Obviously, passengers have to be able enough to hop into the basket before take off, but this is normally not a problem for most, as a helping hand is always available!. It is advisable that passengers or any children should be at least 1.20m in height and able to stand for an hour without problems, so as to appreciate the views from the basket. We recomend pregnant women to postpone the flight on another date.
+Um voo de balão é possível para a maioria das pessoas
 
-People with a more serious medical condition or that had recent surgery should check with their doctor first to ask if they can do this kind of activities.
+– Os passageiros precisam ser capazes de se segurar no cesto.
 
-### Why is the flight so early?
+– Crianças com no mínimo de 1,20cm de altura e que consigam ficar uma hora em pé sem problemas.
 
-Flights take place early in the morning to avoid thermal activity, which occurs in normal conditions two and a half to three hours after sunrise. In wintertime we can fly in the end of the afternoon too.
+– Gestantes devem adiar o voo para um outro momento.
 
-### Will I get cold?
+– Pessoas com uma condição médica séria ou com uma cirurgia recente devem confirmar com o seu médico.
 
-No, you won't. As we fly at favor of the wind, the temperature during the flight is slightly superior to the ambient temperature.
+### Por quê o voo é tão cedo ? 
 
-### What should I wear?
+Os voos acontecem de manhã cedo para evitar instabilidade do vento. No inverno é possivel voar também no final da tarde.
 
-Casual clothing suited to time of year. Shoes should be enclosed and flat.
+**Eu ficarei com frio ? **
 
-### I have vertigos, will I be afraid to fly or feel bad during the flight?
+Não, a temperatura durante o voo é um pouco superior a temperatura ambiente.
 
-Vertigos are the result of static electricity accumulation in the body. In the balloon as there is no real engine and no connection to land, there is no way of receiving it. Consequently vertigos simply do not exist.
+**O que eu devo vestir?**
+
+Roupas casuais apropriadas para a épca do ano. Sapatos devem ser fechados.
+
+**Eu tenho vertigem, eu ficarei com medo de voar ou me sentirei mal durante o voo?**
+
+Vertigem é o resultado de eletricidade estática acumulada no corpo. No balão de ar quente não existe uma conexõ real com a terra, então não existe uma maneira de receber eletricidade estática. Por isso, vertigem não existe nos voos de balão de ar quente.
+
+### 
+
+### 
+
+###
