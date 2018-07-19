@@ -1,5 +1,5 @@
 ---
-title: Perguntas Mais frequentes
+title: Perguntas Mais Frequentes
 permalink: /pt/pmf
 layout: page
 lang: pt
