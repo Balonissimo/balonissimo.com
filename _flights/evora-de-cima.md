@@ -1,5 +1,5 @@
 ---
-title: Evora de cima
+title: Evora de cima - € 150 pp
 permalink: /pt/vooseprecos/evoradecima
 lang: pt
 order: '1'
