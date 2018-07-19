@@ -11,7 +11,7 @@ summary: >-
   Alentejo.
 
 
-  _€ 320 p.p._
+  _€ 640 for two persons_
 prices:
   - description: p.p.
     label: Price
