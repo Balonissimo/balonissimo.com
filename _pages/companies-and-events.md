@@ -1,6 +1,6 @@
 ---
 title: Empresas e Eventos
-permalink: /pt/eee
+permalink: /eee
 layout: page
 lang: pt
 image: /media/2kts.JPG
