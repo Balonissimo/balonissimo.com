@@ -1,6 +1,6 @@
 ---
-title: Media
-permalink: /pt/mediapt
+title: Mídia
+permalink: /pt/midia
 layout: media
 lang: pt
 image: /media/fotographer.JPG
