@@ -3,7 +3,7 @@ title: 'Entre em contato '
 permalink: /pt/contato
 lang: pt
 fields:
-  - label: Full name
+  - label: Nome
     name: nome
     required: true
     type: text
@@ -11,14 +11,14 @@ fields:
     name: email
     required: true
     type: email
-  - label: Phone
+  - label: Telefone
     name: Telefone
     type: text
-  - label: Message
+  - label: Mensagem
     name: mensagem
     required: true
     type: textarea
-  - label: Send question
+  - label: Enviar
     name: enviar
     type: submit
 sidebar:
