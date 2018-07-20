@@ -1,6 +1,6 @@
 ---
-title: Media PT
-permalink: /pt/media/
+title: Media
+permalink: /pt/mediapt
 layout: media
 lang: pt
 image: /media/fotographer.JPG
@@ -10,11 +10,10 @@ buttons:
     url: 'https://www.instagram.com/balonissimo/'
 sidebar:
   - description: >-
-      Here you can find some spectacular pictures from Baloníssimo outside of
-      Portugal.  We have been flying at events in several continents...
-    title: Baloníssimo in the world
+      Aqui você pode encontrar fotos espetaculares da Baloníssimo fora de
+      Portugal. Nós voamos em eventos em diferentes continentes.
+    title: Baloníssimo no mundo
     image: /media/balonissimo-international.JPG
 published: true
 ---
-
-_Whether it is the shear size and colours, their grace of movement or the spirit of adventure,\balloons attract attention and people want to record that in photographs to look at time and time again..._
+Não importa o tamanho ou as cores, a graça do movimento ou o espírito de aventura: Balões atraem atenção e as pessoas querem gravar e tirar fotos para compartilhar e olhar mais tarde.
