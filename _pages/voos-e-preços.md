@@ -1,6 +1,6 @@
 ---
 title: 'Voos e preços '
-permalink: /pt/vooseprecos
+permalink: /pt/voos-e-precos
 layout: flights
 lang: pt
 image: /media/balloon-in-winter.jpg
