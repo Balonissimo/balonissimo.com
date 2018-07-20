@@ -4,7 +4,7 @@ permalink: /pt/contato
 lang: pt
 fields:
   - label: Full name
-    name: name
+    name: nome
     required: true
     type: text
   - label: Email
@@ -12,22 +12,22 @@ fields:
     required: true
     type: email
   - label: Phone
-    name: phone
+    name: telemóvel
     type: text
   - label: Message
-    name: message
+    name: mensagem
     required: true
     type: textarea
   - label: Send question
-    name: submit
+    name: enviar
     type: submit
 sidebar:
-  - description: >-
-      ### Talk to the pilot
-
+  - description: |-
+      ### Linha direta
       **(00351) 935 646 124**\
-       _(also Whatsapp)_
-    title: Talk to the pilot
+       _(tbm Whatsapp)_
     image: /media/balloonteam.JPG
+    title: linha direta
 published: true
 ---
+
