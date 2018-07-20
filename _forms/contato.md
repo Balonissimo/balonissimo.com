@@ -1,5 +1,5 @@
 ---
-title: Ask us a question PT
+title: 'Entre em contato '
 permalink: /pt/contato
 lang: pt
 fields:
@@ -12,7 +12,7 @@ fields:
     required: true
     type: email
   - label: Phone
-    name: telemóvel
+    name: Telefone
     type: text
   - label: Message
     name: mensagem
@@ -27,7 +27,7 @@ sidebar:
       **(00351) 935 646 124**\
        _(tbm Whatsapp)_
     image: /media/balloonteam.JPG
-    title: linha direta
+    title: Linha direta
 published: true
 ---
 
