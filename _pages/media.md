@@ -1,9 +1,11 @@
 ---
 title: Media
-permalink: /mediapt
+permalink: /media
 layout: page
-lang: pt
+lang: en
 image: /media/fotographer.JPG
 published: true
 ---
-Não importa o tamanho ou as cores, a graça do movimento ou o espírito de aventura: Balões atraem atenção e as pessoas querem gravar e tirar fotos para compartilhar e olhar mais tarde.
+Here you can find some latest pictures about our flights.  
+
+Don't forget to bring your camera when you come fly with us !!
