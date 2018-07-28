@@ -4,9 +4,7 @@ permalink: /media
 layout: page
 lang: en
 image: /media/fotographer.JPG
-buttons:
-  - title: Budha
-    url: www.balonissimo.com/en/media/budhaballoondog
+buttons: []
 published: true
 ---
 Here you can find some latest pictures about our flights.  
