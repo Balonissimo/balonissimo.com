@@ -6,7 +6,7 @@ lang: pt
 image: /media/balloonteam.JPG
 published: true
 ---
-O piloto Baloníssimo, **Nelson J. Baetslé **é Belga e possui 15 anos de experiência em balões. Ele começou como membro de uma equipe de balonismo como piloto – estudante, ele conseguiu sua licença privada em 2006. Nesses anos, ele se apaixounou pelo Alentejo, Portugal e nunca mais parou de voltar.
+O piloto Baloníssimo, **Nelson J. Baetslé** é Belga e possui 15 anos de experiência em balões. Ele começou como membro de uma equipe de balonismo como piloto – estudante, ele conseguiu sua licença privada em 2006. Nesses anos, ele se apaixounou pelo Alentejo, Portugal e nunca mais parou de voltar.
 
 2 anos depois, ele conseguiu sua licença comercial e desde então, ele voou em mais de 30 balões em 15 países e em 4 continentes. Em 2015, ele fundou a Baloníssimo em **Evora, Portugal.**
 
