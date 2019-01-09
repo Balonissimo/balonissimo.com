@@ -1,5 +1,5 @@
 ---
-title: Evora de cima - € 150 pp
+title: Evora de cima - € 160 pp
 permalink: /pt/vooseprecos/evoradecima
 lang: pt
 order: '1'
@@ -11,6 +11,9 @@ summary: >-
   procuramos um local para aterrissar. O resgate chega no local, nós recolhemos
   o balão e tomamos uma bebida para celebrar a aventura. Nós trazemos você de
   volta para a cidade ou para o local de descolagem.
+
+
+  Preço €160 pp
 published: true
 ---
 
