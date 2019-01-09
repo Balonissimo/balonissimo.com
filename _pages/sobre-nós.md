@@ -14,6 +14,6 @@ O piloto Baloníssimo, **Nelson J. Baetslé** é Belga e possui 15 anos de exper
 
 Para reservas e informações, você falará provavelmente com **Isis**, Ela responde suas perguntas e dúvidas, ajuda nos voos e organiza o picnic depois do voo.
 
-Para a inflagem do balão e o trabalho de nos seguir em terra, nós contamos com o **Francisco**, as estradas não possuem mais segredos para ele. Ele conhece a região e segue o balão mesmo sem estrada. Ele sempre nos acha.
+Para a inflagem do balão e o trabalho de nos seguir em terra, nós contamos com a equipe, as estradas não possuem mais segredos para eles. Eles conhecem a região e segue o balão mesmo sem estrada. 
 
 Um outro membro importante da nossa equipa é o** Budha**, ele adora ajudar e brincar… e por apenas um pouco  de água e comida, e muito amor e atenção.
