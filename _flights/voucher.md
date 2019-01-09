@@ -9,7 +9,7 @@ summary: >-
   email. Possui validade de 1 ano e não é reebolsável.
 
 
-  € 140 p.p.
+  € 150 p.p.
 published: true
 ---
 
