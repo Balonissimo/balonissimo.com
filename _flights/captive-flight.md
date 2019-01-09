@@ -11,7 +11,7 @@ summary: >-
   other reason to attract attention.
 
 
-  _Prices are from 900 euro /hour._
+  _Price on request._
 prices:
   - description: (/hour)
     label: Prices
