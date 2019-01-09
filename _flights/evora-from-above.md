@@ -1,5 +1,5 @@
 ---
-title: Evora from above - €150 pp
+title: Evora from above - €160 pp
 permalink: /flights-and-prices/evora-from-above
 lang: en
 order: '1'
@@ -13,7 +13,7 @@ summary: >-
   celebrate the adventure. We bring you back to the city or take off field.
 
 
-  _€ 150 p.p._
+  _€ 160 p.p._
 prices:
   - description: p.p.
     label: Price
