@@ -10,7 +10,7 @@ summary: >-
   do lindo Alentejo.
 
 
-  _€ 640 para 2 pessoas _
+  _€ 680 para 2 pessoas _
 published: true
 ---
 
