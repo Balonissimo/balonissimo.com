@@ -10,7 +10,7 @@ summary: >-
   abertura ou outra razão para chamar a atenção.
 
 
-  _Preços desde 900 euro /h._
+  Por o_rçamento. _
 published: true
 ---
 
