@@ -10,6 +10,9 @@ summary: >-
   the geographical and aeronautical conditions we will find a sollution to
   please your wishes. Note that not all regions in Portugal are suitable to do a
   safe flight of one hour.
+
+
+  Price on request
 prices:
   - description: price description
     label: Default price
