@@ -45,6 +45,8 @@ collections:
     label: "Galleries"
     folder: "_galleries"
     create: true
+    editor:
+      preview: false
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Permalink", name: "permalink", widget: "string" }
@@ -58,6 +60,8 @@ collections:
     label: "Flights"
     folder: "_flights"
     create: true
+    editor:
+      preview: false
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Permalink", name: "permalink", widget: "string" }
@@ -89,6 +93,8 @@ collections:
     label: "Teasers"
     folder: "_teasers"
     create: true
+    editor:
+      preview: false
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
@@ -101,6 +107,8 @@ collections:
     label: "Testimonials"
     folder: "_testimonials"
     create: true
+    editor:
+      preview: false
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Language", name: "lang", widget: "select", required: false, options: ["en", "pt", "nl"], default: "en" }
@@ -116,6 +124,8 @@ collections:
     label: "Forms"
     folder: "_forms"
     create: true
+    editor:
+      preview: false
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Permalink", name: "permalink", widget: "string" }
