@@ -11,6 +11,8 @@ collections:
     label: "Pages"
     folder: "_pages"
     create: true
+    editor:
+      preview: false
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Meta title", name: "meta-title", widget: "string" }
@@ -42,6 +44,8 @@ collections:
   - name: "galleries"
     label: "Galleries"
     folder: "_galleries"
+    editor:
+      preview: false
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
@@ -55,6 +59,8 @@ collections:
   - name: "flights"
     label: "Flights"
     folder: "_flights"
+    editor:
+      preview: false
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
@@ -86,6 +92,8 @@ collections:
   - name: "teasers"
     label: "Teasers"
     folder: "_teasers"
+    editor:
+      preview: false
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
@@ -98,6 +106,8 @@ collections:
   - name: "testimonials"
     label: "Testimonials"
     folder: "_testimonials"
+    editor:
+      preview: false
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
@@ -113,6 +123,8 @@ collections:
   - name: "forms"
     label: "Forms"
     folder: "_forms"
+    editor:
+      preview: false
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
