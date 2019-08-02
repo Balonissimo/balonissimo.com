@@ -2,7 +2,7 @@
 title: 'No flight, no pay!'
 lang: en
 order: '1'
-image: /media/drone.JPG
+image: /media/balloontop.JPG
 published: true
 ---
 
