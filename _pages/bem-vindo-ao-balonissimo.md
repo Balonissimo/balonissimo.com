@@ -1,5 +1,9 @@
 ---
 title: Bem vindo ao Balonissimo.com
+meta-title: >-
+  Balao de ar quinte  -  voos de balao - Evora de Cima  -  things to do - Fly
+  over Evora 
+meta-description: 'Passeio de balao   Voos turisticos  Evora Alentejo Portugal '
 permalink: /pt
 layout: frontpage
 lang: pt
