@@ -1,8 +1,8 @@
 ---
-title: Reserve hoje, voe amanhã
+title: 'Reserve hoje, voe amanhã'
 lang: pt
 order: 3
-image: /media/aquaduto.jpg
+image: /media/drone.JPG
 published: true
 ---
 Mesmo se você está visitando Evora por apenas alguns dias, você ainda pode voar conosco. Nós temos serviço de transporte gratuito incluído em Evora de cima.
