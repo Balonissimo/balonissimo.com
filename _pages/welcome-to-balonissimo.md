@@ -1,5 +1,7 @@
 ---
 title: Welcome to Balonissimo.com
+meta-title: 'Hot air Balloon flights over Evora , Alentejo Portugal '
+meta-description: 'Hot air Balloon flight  -  balloonride - Evora from above '
 permalink: /
 layout: frontpage
 lang: en
