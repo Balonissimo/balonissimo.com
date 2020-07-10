@@ -8,6 +8,6 @@ lang: en
 image: /media/banners/evora-01.jpg
 published: true
 ---
-_Come fly with us and experience a **Hot Air Balloon Flight above Evora** and the** **beautiful** Alentejo **region. A Hot Air Balloon ride is the best way to discover the city and the nature._
+_Come fly with us and experience a **Hot Air Balloon Flight above Evora** and the\*\* **beautiful** Alentejo \*\*region. A Hot Air Balloon ride is the best way to discover the city and the nature._
 
-**Free PICK-UP service** included in any place in Evora.
+**Free PICK-UP service** included in any place in Evora, Portugal.
